@@ -3,198 +3,280 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Party Box · half off CVS prices</title>
-<meta name="description" content="Everything from CVS at half the shelf price, delivered to your door. Today only. Party boxes from $13.">
-<meta property="og:title" content="Party Box 🎉 half off CVS prices, today only">
-<meta property="og:description" content="Snacks, mixers, cups, anything from CVS at half the shelf price, delivered tonight by a Babson student.">
+<title>Party Box · half off CVS, delivered tonight</title>
+<meta name="description" content="Anything from CVS at half the shelf price, delivered to your door tonight. Party boxes from $13. Babson, Cambridge, Boston.">
+<meta property="og:title" content="Half off CVS, delivered tonight 🛵">
+<meta property="og:description" content="Party boxes, snacks, drinks, or anything else from CVS at half the shelf price. Today only. Order in 30 seconds.">
 <meta property="og:image" content="https://ryrycd.github.io/party/og.png">
 <meta property="og:url" content="https://ryrycd.github.io/party/">
 <meta property="og:type" content="website">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="theme-color" content="#0d0b14">
-<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎉</text></svg>">
+<meta name="theme-color" content="#ffffff">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
 <style>
 :root{
-  --bg:#0d0b14; --card:#17141f; --card2:#201c2b; --line:#2c2738;
-  --ink:#f6f3ff; --mute:#a69fb8; --hot:#ffe14d; --pink:#ff4fa3; --green:#3ddc84; --blue:#5ab0ff;
-  --r:18px;
+  --bg:#ffffff; --soft:#f5f5f2; --soft2:#ececE7; --line:#e4e4de; --ink:#121212; --mute:#6b6b66;
+  --brand:#0c6b3f; --tag:#ffd43b; --sale:#d6336c;
+  --shadow:0 1px 2px rgba(0,0,0,.05),0 6px 20px rgba(0,0,0,.06);
 }
 *{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
 html,body{margin:0;background:var(--bg);color:var(--ink);font-family:Inter,system-ui,-apple-system,sans-serif;font-size:16px;line-height:1.45}
-body{padding-bottom:110px}
+body{padding-bottom:96px}
 a{color:inherit}
-.wrap{max-width:560px;margin:0 auto;padding:0 16px}
-.top{display:flex;align-items:center;justify-content:space-between;padding:14px 0}
-.logo{font-family:"Archivo Black",sans-serif;font-size:20px;letter-spacing:.5px}
-.logo span{color:var(--hot)}
-.toplinks{display:flex;gap:8px}
-.pill{display:inline-flex;align-items:center;gap:6px;padding:8px 12px;border-radius:999px;background:var(--card2);border:1px solid var(--line);font-weight:600;font-size:14px;text-decoration:none}
-.live{display:inline-flex;align-items:center;gap:8px;font-size:13px;font-weight:700;color:var(--green);background:rgba(61,220,132,.1);border:1px solid rgba(61,220,132,.35);padding:6px 12px;border-radius:999px;margin-top:6px}
-.dot{width:8px;height:8px;border-radius:50%;background:var(--green);box-shadow:0 0 0 0 rgba(61,220,132,.7);animation:p 1.6s infinite}
-@keyframes p{0%{box-shadow:0 0 0 0 rgba(61,220,132,.6)}100%{box-shadow:0 0 0 10px rgba(61,220,132,0)}}
-h1{font-family:"Archivo Black",sans-serif;font-size:44px;line-height:1.02;margin:14px 0 10px;letter-spacing:-.5px}
-h1 em{font-style:normal;color:var(--hot)}
-.sub{color:var(--mute);font-size:17px;margin:0 0 16px}
-.steps3{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin:18px 0 8px}
-.steps3 div{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:12px 10px;font-size:13px;color:var(--mute)}
-.steps3 b{display:block;color:var(--ink);font-size:15px;margin-bottom:2px}
-.cta{display:block;width:100%;text-align:center;background:var(--hot);color:#111;font-weight:800;font-size:18px;padding:16px;border-radius:14px;border:0;text-decoration:none;cursor:pointer;font-family:inherit}
+img{display:block;max-width:100%}
+.wrap{max-width:1080px;margin:0 auto;padding:0 16px}
+button{font-family:inherit}
+.ann{background:var(--ink);color:#fff;font-size:13px;font-weight:600;text-align:center;padding:8px 12px}
+.ann b{color:var(--tag)}
+header.top{position:sticky;top:0;z-index:20;background:rgba(255,255,255,.96);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+.topin{display:flex;align-items:center;gap:12px;padding:10px 0}
+.logo{display:flex;align-items:center;gap:8px;font-weight:900;font-size:19px;letter-spacing:-.4px;text-decoration:none;flex:none}
+.logo i{width:30px;height:30px;border-radius:9px;background:var(--brand);display:grid;place-items:center;color:#fff;font-style:normal;font-size:13px}
+.search{flex:1;position:relative}
+.search input{width:100%;height:42px;border-radius:999px;border:1px solid var(--line);background:var(--soft);padding:0 16px 0 40px;font:inherit;font-size:16px;outline:none;-webkit-appearance:none}
+.search input:focus{border-color:var(--brand);background:#fff}
+.search svg{position:absolute;left:14px;top:12px;width:18px;height:18px;color:var(--mute)}
+.cartbtn{flex:none;height:42px;border-radius:999px;border:0;background:var(--ink);color:#fff;font-weight:700;padding:0 14px;display:flex;align-items:center;gap:8px;cursor:pointer}
+.cartbtn span{background:var(--tag);color:#111;border-radius:999px;font-size:12px;padding:1px 7px}
+.hero{display:grid;grid-template-columns:1.1fr 1fr;gap:28px;align-items:center;padding:28px 0 8px}
+.kicker{display:inline-flex;align-items:center;gap:8px;font-size:13px;font-weight:700;color:var(--brand);background:#e7f3ec;border-radius:999px;padding:6px 12px}
+.kicker .dot{width:8px;height:8px;border-radius:50%;background:var(--brand);animation:p 1.6s infinite}
+@keyframes p{0%{box-shadow:0 0 0 0 rgba(12,107,63,.5)}100%{box-shadow:0 0 0 9px rgba(12,107,63,0)}}
+h1{font-size:52px;line-height:1.02;letter-spacing:-1.6px;margin:14px 0 12px;font-weight:900}
+h1 .u{background:linear-gradient(transparent 62%,var(--tag) 62%)}
+.lead{font-size:18px;color:#3b3b38;margin:0 0 18px;max-width:520px}
+.cta{display:inline-flex;align-items:center;justify-content:center;gap:8px;background:var(--brand);color:#fff;font-weight:800;font-size:17px;padding:15px 22px;border-radius:14px;border:0;text-decoration:none;cursor:pointer}
 .cta:active{transform:scale(.98)}
-.cta.ghost{background:transparent;color:var(--ink);border:1px solid var(--line)}
-.cta.venmo{background:#008cff;color:#fff}
-.cta.green{background:var(--green);color:#062}
-h2{font-family:"Archivo Black",sans-serif;font-size:26px;margin:34px 0 4px}
-.h2sub{color:var(--mute);margin:0 0 14px;font-size:15px}
-.box{background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:16px;margin-bottom:12px;position:relative;overflow:hidden}
-.box.sel{border-color:var(--hot);box-shadow:0 0 0 1px var(--hot) inset}
-.boxhead{display:flex;gap:14px;align-items:flex-start}
-.emo{font-size:40px;line-height:1;width:58px;height:58px;display:grid;place-items:center;background:var(--card2);border-radius:14px;flex:none}
-.bname{font-weight:800;font-size:19px;margin:0}
-.serves{color:var(--mute);font-size:13px;margin-top:2px}
-.tag{position:absolute;top:12px;right:12px;font-size:11px;font-weight:800;letter-spacing:.6px;text-transform:uppercase;background:var(--pink);color:#fff;padding:4px 8px;border-radius:999px}
-.tag.y{background:var(--hot);color:#111}
-.items{margin:12px 0 0;padding:0;list-style:none;display:flex;flex-wrap:wrap;gap:6px}
-.items li{font-size:13px;background:var(--card2);border:1px solid var(--line);padding:4px 9px;border-radius:999px;color:#d9d3ea}
-.boxfoot{display:flex;align-items:center;justify-content:space-between;margin-top:14px}
-.price{font-family:"Archivo Black",sans-serif;font-size:26px}
-.was{display:block;font-family:Inter,sans-serif;font-size:13px;font-weight:600;color:var(--mute);text-decoration:line-through;margin-bottom:-2px}
-.off{display:inline-block;margin-left:8px;font-size:12px;font-weight:800;color:var(--green);vertical-align:middle;font-family:Inter,sans-serif}
-.halfbanner{display:block;margin-top:14px;background:var(--pink);color:#fff;font-weight:800;font-size:17px;text-align:center;padding:12px;border-radius:14px}
-.qty{display:flex;align-items:center;gap:0;background:var(--card2);border:1px solid var(--line);border-radius:12px;overflow:hidden}
-.qty button{width:46px;height:44px;border:0;background:transparent;color:var(--ink);font-size:24px;font-weight:700;cursor:pointer}
-.qty span{min-width:28px;text-align:center;font-weight:800;font-size:18px}
-.add{background:var(--hot);color:#111;border:0;font-weight:800;font-size:16px;padding:11px 18px;border-radius:12px;cursor:pointer;font-family:inherit}
-.custom textarea,.f input,.f textarea,.f select{width:100%;background:var(--card2);border:1px solid var(--line);color:var(--ink);border-radius:12px;padding:13px 14px;font:inherit;font-size:16px;outline:none}
-.custom textarea:focus,.f input:focus,.f textarea:focus,.f select:focus{border-color:var(--hot)}
-.custom textarea{min-height:84px;margin-top:12px;resize:vertical}
-.note{font-size:13px;color:var(--mute);margin-top:8px}
-.story{background:linear-gradient(135deg,#2a1640,#151022);border:1px solid #3b2a55;border-radius:var(--r);padding:18px;margin-top:34px}
-.story b{color:var(--hot)}
-.faq details{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px 16px;margin-bottom:8px}
+.cta:disabled{opacity:.6}
+.cta.alt{background:#fff;color:var(--ink);border:1.5px solid var(--ink)}
+.ctas{display:flex;gap:10px;flex-wrap:wrap}
+.trust{display:flex;gap:16px;flex-wrap:wrap;margin-top:18px;font-size:14px;color:var(--mute);font-weight:500}
+.trust b{color:var(--ink)}
+.count{font-variant-numeric:tabular-nums}
+.heroimg{position:relative;border-radius:24px;overflow:hidden;background:var(--soft);aspect-ratio:1/1;box-shadow:var(--shadow)}
+.heroimg img.photo{width:100%;height:100%;object-fit:cover}
+.heroimg .badge{position:absolute;left:14px;bottom:14px;background:#fff;border-radius:14px;padding:10px 14px;box-shadow:var(--shadow);font-weight:800;font-size:15px}
+.heroimg .badge small{display:block;color:var(--mute);font-weight:600;font-size:12px}
+.heroimg .stamp{position:absolute;right:14px;top:14px;background:var(--sale);color:#fff;font-weight:900;font-size:22px;line-height:.95;text-align:center;border-radius:50%;width:92px;height:92px;display:grid;place-items:center;transform:rotate(10deg)}
+h2{font-size:28px;letter-spacing:-.6px;margin:40px 0 4px;font-weight:900}
+.sub{color:var(--mute);margin:0 0 16px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:14px}
+.box{border:1px solid var(--line);border-radius:20px;overflow:hidden;background:#fff;display:flex;flex-direction:column;box-shadow:var(--shadow)}
+.box.sel{outline:2.5px solid var(--brand)}
+.collage{position:relative;background:var(--soft);display:grid;grid-template-columns:repeat(4,1fr);gap:6px;padding:34px 10px 10px}
+.collage div{background:#fff;border-radius:12px;aspect-ratio:3/4;overflow:hidden;min-height:0;display:flex;align-items:center;justify-content:center}
+.collage img{width:100%;height:100%;object-fit:cover}
+.collage .flag{position:absolute;left:10px;top:10px;background:var(--ink);color:#fff;font-size:11px;font-weight:800;letter-spacing:.4px;text-transform:uppercase;border-radius:999px;padding:4px 9px;z-index:2}
+.collage .flag.y{background:var(--tag);color:#111}
+.bbody{padding:14px 14px 16px;display:flex;flex-direction:column;flex:1}
+.bname{font-weight:800;font-size:18px;margin:0}
+.serves{font-size:13px;color:var(--mute);margin:2px 0 8px}
+.bitems{font-size:14px;color:#3b3b38;margin:0 0 12px;padding-left:18px}
+.bitems li{margin:2px 0}
+.pricerow{display:flex;align-items:flex-end;justify-content:space-between;margin-top:auto;gap:8px}
+.was{font-size:13px;color:var(--mute);text-decoration:line-through;font-weight:600}
+.now{font-size:26px;font-weight:900;letter-spacing:-.5px;line-height:1}
+.off{display:inline-block;background:#fde8ef;color:var(--sale);font-size:12px;font-weight:800;border-radius:6px;padding:2px 6px;margin-left:6px;vertical-align:4px}
+.add{border:0;background:var(--brand);color:#fff;font-weight:800;font-size:15px;padding:11px 16px;border-radius:12px;cursor:pointer}
+.qty{display:flex;align-items:center;background:var(--soft);border-radius:12px;overflow:hidden}
+.qty button{width:40px;height:42px;border:0;background:transparent;font-size:22px;font-weight:700;cursor:pointer}
+.qty span{min-width:22px;text-align:center;font-weight:800}
+.chips{display:flex;gap:8px;overflow-x:auto;padding:4px 0 12px;scrollbar-width:none}
+.chips::-webkit-scrollbar{display:none}
+.chip{flex:none;border:1px solid var(--line);background:#fff;border-radius:999px;padding:8px 14px;font-weight:700;font-size:14px;cursor:pointer}
+.chip.on{background:var(--ink);color:#fff;border-color:var(--ink)}
+.pgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:12px}
+.prod{border:1px solid var(--line);border-radius:16px;padding:10px;display:flex;flex-direction:column;background:#fff}
+.pimg{aspect-ratio:1/1;background:var(--soft);border-radius:12px;display:grid;place-items:center;overflow:hidden;margin-bottom:8px}
+.pimg img{width:82%;height:82%;object-fit:contain}
+.pimg .ph{font-weight:900;font-size:15px;color:#9a9a93;text-align:center;padding:10px;line-height:1.2}
+.pname{font-size:14px;font-weight:600;line-height:1.25;margin:0 0 2px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.psize{font-size:12px;color:var(--mute);margin-bottom:8px}
+.prow{display:flex;align-items:flex-end;justify-content:space-between;margin-top:auto}
+.prow .now{font-size:19px}
+.prow .add{padding:8px 12px;font-size:14px;border-radius:10px}
+.prow .qty button{width:32px;height:34px;font-size:18px}
+.more{display:block;margin:14px auto 0;border:1px solid var(--line);background:#fff;border-radius:999px;padding:10px 18px;font-weight:700;cursor:pointer}
+.empty{padding:20px;text-align:center;color:var(--mute);border:1px dashed var(--line);border-radius:16px}
+.custom{background:var(--soft);border-radius:20px;padding:18px;display:grid;grid-template-columns:1fr 1fr auto;gap:10px;align-items:end}
+.custom label{display:block;font-size:13px;font-weight:700;margin-bottom:6px}
+.inp{width:100%;height:46px;border-radius:12px;border:1px solid var(--line);background:#fff;padding:0 14px;font:inherit;font-size:16px;outline:none;color:var(--ink)}
+.inp:focus{border-color:var(--brand)}
+.est{grid-column:1/-1;font-size:14px;color:var(--mute)}
+.est b{color:var(--ink)}
+.how{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+.how div{border:1px solid var(--line);border-radius:16px;padding:16px}
+.how b{display:block;font-size:16px;margin-bottom:4px}
+.how span{color:var(--mute);font-size:14px}
+.photo2{border-radius:20px;overflow:hidden;margin-top:14px;aspect-ratio:21/8;background:var(--soft)}
+.photo2 img{width:100%;height:100%;object-fit:cover}
+.lead2{background:var(--ink);color:#fff;border-radius:20px;padding:20px;display:grid;grid-template-columns:1.3fr 1fr;gap:16px;align-items:center;margin-top:40px}
+.lead2 h3{margin:0 0 4px;font-size:22px}
+.lead2 p{margin:0;color:#c9c9c4;font-size:15px}
+.lead2 form{display:flex;gap:8px}
+.lead2 .inp{border:0}
+.lead2 button{flex:none;border:0;background:var(--tag);color:#111;font-weight:800;border-radius:12px;padding:0 16px;cursor:pointer}
+.faq details{border-bottom:1px solid var(--line);padding:14px 2px}
 .faq summary{font-weight:700;cursor:pointer;list-style:none}
 .faq summary::-webkit-details-marker{display:none}
-.faq summary::after{content:"+";float:right;color:var(--mute)}
+.faq summary::after{content:"+";float:right;color:var(--mute);font-weight:500}
 .faq details[open] summary::after{content:"–"}
-.faq p{color:var(--mute);margin:8px 0 0;font-size:15px}
-.foot{color:var(--mute);font-size:13px;text-align:center;margin:30px 0 10px}
-/* sticky bar */
-.bar{position:fixed;left:0;right:0;bottom:0;padding:12px 16px calc(12px + env(safe-area-inset-bottom));background:rgba(13,11,20,.92);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);border-top:1px solid var(--line);z-index:20;transform:translateY(110%);transition:transform .25s ease}
+.faq p{color:var(--mute);margin:8px 0 0}
+footer{color:var(--mute);font-size:12px;margin:36px 0 10px;line-height:1.6}
+.bar{position:fixed;left:0;right:0;bottom:0;z-index:25;padding:10px 16px calc(10px + env(safe-area-inset-bottom));background:#fff;border-top:1px solid var(--line);box-shadow:0 -8px 24px rgba(0,0,0,.06);transform:translateY(110%);transition:transform .25s}
 .bar.on{transform:none}
-.bar .in{max-width:560px;margin:0 auto;display:flex;gap:12px;align-items:center}
+.bar .in{max-width:1080px;margin:0 auto;display:flex;align-items:center;gap:12px}
 .bar .sum{flex:1;min-width:0}
-.bar .sum b{font-family:"Archivo Black",sans-serif;font-size:22px;display:block}
-.bar .sum small{color:var(--mute);font-size:13px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;display:block}
-.bar .cta{width:auto;padding:14px 22px;flex:none}
-/* sheet */
-.scrim{position:fixed;inset:0;background:rgba(0,0,0,.6);z-index:30;opacity:0;pointer-events:none;transition:opacity .2s}
+.bar .sum b{font-size:20px;font-weight:900}
+.bar .sum small{display:block;color:var(--mute);font-size:13px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.bar .sum .saved{color:var(--sale);font-weight:700}
+.scrim{position:fixed;inset:0;background:rgba(0,0,0,.45);z-index:30;opacity:0;pointer-events:none;transition:opacity .2s}
 .scrim.on{opacity:1;pointer-events:auto}
-.sheet{position:fixed;left:0;right:0;bottom:0;max-height:92vh;overflow:auto;background:#12101a;border-top-left-radius:22px;border-top-right-radius:22px;border:1px solid var(--line);z-index:31;transform:translateY(105%);transition:transform .28s cubic-bezier(.2,.8,.2,1);padding:8px 0 calc(20px + env(safe-area-inset-bottom))}
+.sheet{position:fixed;left:0;right:0;bottom:0;max-height:92vh;overflow:auto;background:#fff;border-radius:22px 22px 0 0;z-index:31;transform:translateY(105%);transition:transform .28s cubic-bezier(.2,.8,.2,1);padding:8px 0 calc(20px + env(safe-area-inset-bottom))}
 .sheet.on{transform:none}
-.grab{width:42px;height:5px;border-radius:9px;background:#3a3448;margin:6px auto 10px}
-.sheet h3{font-family:"Archivo Black",sans-serif;font-size:24px;margin:4px 0 12px}
-.lines{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:12px 14px;margin-bottom:14px}
-.line{display:flex;justify-content:space-between;padding:4px 0;font-size:15px}
-.line.tot{border-top:1px solid var(--line);margin-top:6px;padding-top:10px;font-weight:800;font-size:18px}
+.sheet .wrap{max-width:560px}
+.grab{width:42px;height:5px;border-radius:9px;background:#d8d8d2;margin:6px auto 12px}
+.sheet h3{font-size:24px;margin:0 0 12px;letter-spacing:-.4px}
+.lines{border:1px solid var(--line);border-radius:14px;padding:6px 14px;margin-bottom:12px}
+.line{display:flex;justify-content:space-between;gap:10px;padding:8px 0;font-size:15px;border-bottom:1px solid var(--soft2)}
+.line:last-child{border-bottom:0}
+.line .x{border:0;background:none;color:var(--mute);cursor:pointer;font-size:13px;padding:0 0 0 8px}
+.line.tot{font-weight:900;font-size:18px}
+.line.save{color:var(--sale);font-weight:700}
 .f label{display:block;font-weight:700;font-size:14px;margin:12px 0 6px}
-.f .row{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.row2{display:grid;grid-template-columns:1fr 1fr;gap:10px}
 .pay{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}
 .pay label{margin:0}
 .pay input{display:none}
-.pay span{display:block;text-align:center;padding:12px 6px;border-radius:12px;background:var(--card2);border:1px solid var(--line);font-weight:700;font-size:14px;cursor:pointer}
-.pay input:checked+span{border-color:var(--hot);background:rgba(255,225,77,.1);color:var(--hot)}
-.err{color:#ff7a7a;font-size:14px;margin-top:10px;display:none}
-.step2{display:none}
-.big{font-family:"Archivo Black",sans-serif;font-size:30px;margin:2px 0}
-.zelle{display:flex;gap:8px;align-items:center;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px;margin-top:10px}
+.pay span{display:block;text-align:center;padding:12px 4px;border-radius:12px;border:1.5px solid var(--line);font-weight:700;font-size:14px;cursor:pointer}
+.pay input:checked+span{border-color:var(--brand);background:#e7f3ec;color:var(--brand)}
+.err{color:#c92a2a;font-size:14px;margin-top:10px;display:none}
+.full{width:100%}
+.note{font-size:13px;color:var(--mute);text-align:center;margin-top:8px}
+.step2{display:none;text-align:center}
+.check{width:64px;height:64px;border-radius:50%;background:#e7f3ec;color:var(--brand);display:grid;place-items:center;font-size:34px;margin:6px auto 8px}
+.oid{display:inline-block;background:var(--soft);border-radius:8px;padding:2px 8px;font-weight:800}
+.big{font-size:32px;font-weight:900;margin:8px 0}
+.venmo{background:#008cff}
+.zelle{display:flex;gap:8px;align-items:center;border:1px solid var(--line);border-radius:12px;padding:12px;margin-top:10px;text-align:left}
 .zelle code{flex:1;font-size:14px;word-break:break-all}
-.copy{background:#6d1ed4;color:#fff;border:0;border-radius:10px;padding:10px 12px;font-weight:700;cursor:pointer;font-family:inherit}
-.oid{display:inline-block;background:var(--card2);border:1px solid var(--line);border-radius:8px;padding:2px 8px;font-weight:800;color:var(--hot)}
-.toast{position:fixed;left:50%;top:18px;transform:translateX(-50%) translateY(-80px);background:var(--green);color:#052;font-weight:800;padding:10px 16px;border-radius:999px;z-index:50;transition:transform .25s}
+.copy{background:#6d1ed4;color:#fff;border:0;border-radius:10px;padding:10px 12px;font-weight:700;cursor:pointer}
+.warn{background:#fff4e6;border:1px solid #ffd8a8;border-radius:12px;padding:12px;margin:12px 0;font-size:14px;text-align:left}
+.toast{position:fixed;left:50%;top:14px;transform:translateX(-50%) translateY(-90px);background:var(--ink);color:#fff;font-weight:700;padding:10px 16px;border-radius:999px;z-index:50;transition:transform .25s;font-size:14px}
 .toast.on{transform:translateX(-50%) translateY(0)}
-@media (max-width:380px){h1{font-size:38px}.steps3 div{font-size:12px}}
+@media (max-width:820px){
+  .hero{grid-template-columns:1fr;gap:18px;padding-top:18px}
+  .heroimg{aspect-ratio:16/10;order:-1}
+  h1{font-size:40px}
+  .custom{grid-template-columns:1fr}
+  .how{grid-template-columns:1fr}
+  .lead2{grid-template-columns:1fr}
+  .logo span{display:none}
+  .grid{grid-template-columns:1fr}
+}
 </style>
 </head>
 <body>
+<div class="ann">🛵 Today only: <b>half the CVS shelf price</b> on everything · <span class="count" id="countA"></span></div>
+<header class="top"><div class="wrap topin">
+  <a class="logo" href="#"><i>PB</i><span>Party Box</span></a>
+  <div class="search">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+    <input id="q" type="search" placeholder="Search anything at CVS…" autocomplete="off">
+  </div>
+  <button class="cartbtn" id="cartBtn">Cart <span id="cartN">0</span></button>
+</div></header>
+
 <div class="wrap">
-  <div class="top">
-    <div class="logo">PARTY<span>BOX</span></div>
-    <div class="toplinks">
-      <a class="pill" id="topText" href="#">💬 Text</a>
-      <a class="pill" id="topCall" href="#">📞 Call</a>
+  <section class="hero">
+    <div>
+      <div class="kicker"><span class="dot"></span>Delivering now · Babson, Cambridge, Boston</div>
+      <h1>Anything from CVS. <span class="u">Half off.</span> At your door tonight.</h1>
+      <p class="lead">Party boxes, snacks, energy drinks, skincare, chargers. Pick it here, and a Babson student brings it to your dorm or apartment. Pay when it shows up.</p>
+      <div class="ctas"><a class="cta" href="#boxes">Shop party boxes</a><a class="cta alt" href="#store">Search the whole store</a></div>
+      <div class="trust"><span>⏱ <b>~45 min</b> delivery</span><span>💸 <b>Venmo, Zelle</b> or at the door</span><span>⏳ Ends in <b class="count" id="countB"></b></span></div>
     </div>
-  </div>
-
-  <div class="live"><span class="dot"></span> Today only · delivering till 1 AM</div>
-  <h1>Half off CVS.<br><em>At your door.</em></h1>
-  <p class="sub">Party boxes, snacks, mixers, cups, or anything else from CVS, at <b style="color:var(--ink)">half the shelf price</b>, dropped at your dorm or apartment by a Babson student. Today only.</p>
-  <a class="cta" href="#boxes">Pick a box →</a>
-
-  <div class="steps3">
-    <div><b>1. Pick</b>a box or ask for anything from CVS</div>
-    <div><b>2. Text</b>your order sends in one tap</div>
-    <div><b>3. Done</b>we drop it off. Pay now or at the door</div>
-  </div>
-
-  <h2 id="boxes">Tonight's boxes</h2>
-  <p class="h2sub">Half the CVS shelf price. Everything sealed, straight from the store. Delivery included.</p>
-  <div id="list"></div>
-
-  <div class="box custom" id="customBox">
-    <div class="boxhead">
-      <div class="emo">✨</div>
-      <div>
-        <p class="bname">Special request</p>
-        <div class="serves">Anything from CVS at half the shelf price: chargers, skincare, razors, snacks, a birthday card, more cups…</div>
-      </div>
+    <div class="heroimg">
+      <img class="photo" src="img/hero.jpg" alt="Party snacks and drinks" onerror="this.style.display='none'">
+      <div class="stamp">50%<br>OFF</div>
+      <div class="badge">Pregame Box · $22<small>CVS price $45 · feeds 6–8</small></div>
     </div>
-    <textarea id="custom" placeholder="e.g. more cups, a phone charger (USB-C), 3 Celsius, birthday candles"></textarea>
-    <div class="note">Half the shelf price + $5 delivery. Ryan texts you the exact total before buying. No medicine, alcohol or tobacco.</div>
+  </section>
+
+  <h2 id="boxes">Party boxes</h2>
+  <p class="sub">Packed and delivered tonight. Delivery included.</p>
+  <div class="grid" id="boxList"></div>
+
+  <h2 id="store">Shop the whole store</h2>
+  <p class="sub">Central Square CVS shelf prices, cut in half. Delivery $5, free on orders of $25+.</p>
+  <div class="chips" id="cats"></div>
+  <div class="pgrid" id="prodList"></div>
+  <button class="more" id="moreBtn">Show more</button>
+
+  <h2>Can't find it?</h2>
+  <p class="sub">Ask for anything CVS sells. We'll grab it at half the shelf price.</p>
+  <div class="custom">
+    <div><label for="cItem">What do you need?</label><input class="inp" id="cItem" placeholder="e.g. Crest Whitestrips, phone charger"></div>
+    <div><label for="cPrice">Shelf price, if you know it</label><input class="inp" id="cPrice" inputmode="decimal" placeholder="$ optional"></div>
+    <button class="cta" id="cAdd" style="height:46px">Add request</button>
+    <div class="est" id="cEst">We'll text you the exact price before we buy it. No medicine, alcohol or tobacco.</div>
   </div>
 
-  <div class="story">
-    <b>Why this exists:</b> we're Babson students in a 24-hour challenge, turning $500 into as much as we can by Sunday 9 AM, and filming the whole thing. Every box you order helps. 🙏
+  <h2>How it works</h2>
+  <div class="how">
+    <div><b>1. Pick</b><span>Add boxes or items, or ask for anything CVS sells.</span></div>
+    <div><b>2. Place your order</b><span>30 seconds. Ryan gets it instantly and texts you an ETA.</span></div>
+    <div><b>3. We drop it off</b><span>At your door, usually within the hour. Pay now or when it arrives.</span></div>
+  </div>
+  <div class="photo2"><img src="img/bags.jpg" alt="Delivery bags lined up" onerror="this.parentNode.style.display='none'"></div>
+
+  <div class="lead2">
+    <div><h3>Not ordering yet?</h3><p>Drop your number and we'll text you when we're near your building tonight, plus any extra deals.</p></div>
+    <form id="leadForm"><input class="inp" id="leadPhone" type="tel" inputmode="tel" placeholder="Your phone" autocomplete="tel"><button>Text me</button></form>
   </div>
 
   <h2>Questions</h2>
   <div class="faq">
-    <details><summary>Where do you deliver?</summary><p>Babson campus, Cambridge and Boston (BU, Northeastern, Harvard, Fenway, Allston). Somewhere else? Text us and we'll tell you if we can make it.</p></details>
-    <details><summary>How fast?</summary><p>Usually within an hour. Ryan texts you an ETA as soon as your order comes in. You can also pick a later time.</p></details>
-    <details><summary>Do I have to pay up front?</summary><p>No. Pay now with Venmo or Zelle and you go to the front of the line, or pay at the door when it shows up.</p></details>
-    <details><summary>Is this legit?</summary><p>Yep. Real person, real phone number: <a id="faqPhone" href="#"></a>. Everything comes sealed, straight from the store.</p></details>
-    <details><summary>How long does half off last?</summary><p>Today only. Orders close at 1 AM, with early-morning drop-offs until 8:30 AM.</p></details>
-    <details><summary>Alcohol?</summary><p>No alcohol, tobacco or medicine. Mixers, snacks and supplies only.</p></details>
+    <details><summary>Who are you?</summary><p>Babson students running a 24-hour entrepreneurship challenge, delivering around Babson, Cambridge and Boston tonight. Real people, real number: <a class="phoneLink" href="#"></a>.</p></details>
+    <details><summary>How fast is delivery?</summary><p>Usually within an hour. You'll get a text with your ETA as soon as your order comes in, or pick a later time.</p></details>
+    <details><summary>Do I pay up front?</summary><p>Your choice. Pay by Venmo or Zelle right away to jump the line, or pay when it arrives.</p></details>
+    <details><summary>How long is half off?</summary><p>Today only. Orders close at 1 AM, with early drop-offs until 8:30 AM.</p></details>
+    <details><summary>Anything you won't deliver?</summary><p>No alcohol, tobacco or medicine. Everything else on CVS shelves is fair game.</p></details>
   </div>
 
-  <div class="foot">Party Box · Ryan · <a id="footPhone" href="#"></a><br>Independent student delivery. Not affiliated with CVS.</div>
+  <footer>
+    Party Box · Ryan · <a class="phoneLink" href="#"></a><br>
+    Independent student delivery. Not affiliated with CVS. Prices are Central Square CVS shelf prices listed on cvs.com today; in-store prices can differ slightly, and we'll text you if anything changes.<br>
+    <span id="credits"></span>
+  </footer>
 </div>
 
-<!-- sticky order bar -->
 <div class="bar" id="bar"><div class="in">
-  <div class="sum"><b id="barTotal">$0</b><small id="barItems">nothing yet</small></div>
-  <button class="cta" id="openSheet">Order →</button>
+  <div class="sum"><b id="barTotal">$0</b> <small id="barItems"></small></div>
+  <button class="cta" id="openSheet">Checkout →</button>
 </div></div>
 
 <div class="scrim" id="scrim"></div>
 <div class="sheet" id="sheet"><div class="wrap">
   <div class="grab"></div>
-
-  <div class="step1" id="step1">
+  <div id="step1">
     <h3>Your order</h3>
     <div class="lines" id="lines"></div>
     <div class="f">
-      <div class="row">
-        <div><label for="name">Your name</label><input id="name" autocomplete="given-name" placeholder="First name"></div>
-        <div><label for="when">When</label>
-          <select id="when"><option>ASAP</option><option>In 1–2 hours</option><option>9–10 PM</option><option>10–11 PM</option><option>11 PM–midnight</option><option>Midnight–1 AM</option><option>Tomorrow 7–8:30 AM</option></select></div>
+      <div class="row2">
+        <div><label for="name">Name</label><input class="inp" id="name" autocomplete="given-name" placeholder="First name"></div>
+        <div><label for="phone">Phone</label><input class="inp" id="phone" type="tel" inputmode="tel" autocomplete="tel" placeholder="For your ETA text"></div>
       </div>
-      <label for="where">Where to drop it</label>
-      <input id="where" placeholder="Dorm + room, or full address">
-      <label for="phone">Your phone</label>
-      <input id="phone" type="tel" autocomplete="tel" inputmode="tel" placeholder="So Ryan can text your ETA">
-      <label>How you'll pay</label>
+      <label for="where">Where should we drop it?</label>
+      <input class="inp" id="where" placeholder="Dorm + room, or full address" autocomplete="street-address">
+      <div class="row2">
+        <div><label for="when">When</label>
+          <select class="inp" id="when"><option>ASAP</option><option>In 1–2 hours</option><option>9–10 PM</option><option>10–11 PM</option><option>11 PM–midnight</option><option>Midnight–1 AM</option><option>Tomorrow 7–8:30 AM</option></select></div>
+        <div><label for="notes">Notes</label><input class="inp" id="notes" placeholder="Optional"></div>
+      </div>
+      <label>Pay with</label>
       <div class="pay">
         <label><input type="radio" name="pay" value="Venmo" checked><span>Venmo</span></label>
         <label><input type="radio" name="pay" value="Zelle"><span>Zelle</span></label>
@@ -202,175 +284,226 @@ h2{font-family:"Archivo Black",sans-serif;font-size:26px;margin:34px 0 4px}
       </div>
       <div class="err" id="err"></div>
       <div style="height:16px"></div>
-      <button class="cta" id="send">Send order by text 💬</button>
-      <div class="note" style="text-align:center">Opens your Messages app with the order filled in. Just hit send.</div>
-      <div style="height:10px"></div>
-      <button class="cta ghost" id="closeSheet">Keep shopping</button>
+      <button class="cta full" id="place">Place order</button>
+      <div class="note">No account needed. Ryan gets your order instantly.</div>
+      <div style="height:8px"></div>
+      <button class="cta alt full" id="closeSheet">Keep shopping</button>
     </div>
   </div>
-
-  <div class="step2" id="step2">
-    <h3>Almost done ✅</h3>
-    <p style="margin:0 0 6px;color:var(--mute)">Order <span class="oid" id="oid"></span>. Make sure the text actually sent, then pay below.</p>
+  <div id="step2" class="step2">
+    <div class="check">✓</div>
+    <h3>Order placed!</h3>
+    <p style="margin:0;color:var(--mute)">Order <span class="oid" id="oid"></span>. Ryan will text you an ETA shortly.</p>
+    <div id="sendWarn"></div>
     <div id="payArea"></div>
     <div style="height:12px"></div>
-    <a class="cta ghost" id="resend" href="#">Text didn't open? Tap to try again</a>
-    <div class="note" style="text-align:center;margin-top:10px">Still stuck? Call or text <a id="stuckPhone" href="#"></a>.</div>
-    <div style="height:10px"></div>
-    <button class="cta ghost" id="done">Close</button>
+    <a class="cta alt full" id="smsBtn" href="#">Text Ryan your order too (optional)</a>
+    <div class="note">Questions? Call or text <a class="phoneLink" href="#"></a>.</div>
+    <div style="height:8px"></div>
+    <button class="cta alt full" id="done">Done</button>
   </div>
 </div></div>
-
-<div class="toast" id="toast">Copied ✓</div>
+<div class="toast" id="toast"></div>
 
 <script>
-/* ===== edit these ===== */
-const PHONE = "+17042499818";
-const PHONE_DISPLAY = "(704) 249-9818";
-const VENMO = "ryrycd";
-const ZELLE = "ryrycdryrycd@gmail.com";
+/* ===== settings ===== */
+const PHONE = "+17042499818", PHONE_DISPLAY = "(704) 249-9818";
+const VENMO = "ryrycd", ZELLE = "ryrycdryrycd@gmail.com";
 const ALERT = "https://ntfy.sh/partybox-ryrycd-e578e3b5";
+const EMAIL = "https://formsubmit.co/ajax/ryrycdryrycd@gmail.com";
+const DEADLINE = new Date("2026-11-15T01:00:00-05:00");
+const DELIVERY = 5, FREE_OVER = 25;
 const BOXES = [
-  {id:"pregame", emo:"🎉", name:"Pregame Box", serves:"Feeds 6–8", price:22, was:45, tag:"Most popular", tagc:"y",
-   items:["2 big bags of chips","Salsa","4 two-liter mixers","50 party cups","Napkins"]},
-  {id:"whole", emo:"🪩", name:"The Whole Party", serves:"Feeds 15–20", price:52, was:104, tag:"Best value",
-   items:["5 big bags of chips + salsa","8 two-liter mixers","2 candy share bags","100 party cups","Plates + napkins"]},
-  {id:"munchies", emo:"🍿", name:"Late-Night Munchies", serves:"For 3–4", price:16, was:33,
-   items:["2 bags of chips","Family-size Oreos","Candy share bag","2 two-liter sodas"]},
-  {id:"energy", emo:"⚡", name:"All-Nighter Box", serves:"For 2–3", price:16, was:32,
-   items:["6 Celsius","2 protein bars","Trail mix","Gum"]},
-  {id:"reset", emo:"🌅", name:"Sunday Reset Kit", serves:"For 1–2", price:13, was:26,
-   items:["2 Gatorades","Pedialyte","2 Liquid I.V. packets","Crackers + granola bars"]}
+  {id:"pregame", name:"Pregame Box", serves:"Feeds 6–8", price:22, was:45, flag:"Most popular", y:1,
+   items:["2 big bags of chips (Doritos, Lay's)","Tostitos salsa","4 two-liter mixers (Coke, Sprite, ginger ale)","50 party cups + napkins"], img:["doritos","salsa","coke","sprite"]},
+  {id:"whole", name:"The Whole Party", serves:"Feeds 15–20", price:52, was:104, flag:"Best value",
+   items:["5 big bags of chips + salsa","8 two-liter mixers","2 candy share bags","100 cups, plates, napkins"], img:["tostitos","coke","sourpatch","lays"]},
+  {id:"munchies", name:"Late-Night Munchies", serves:"For 3–4", price:16, was:33,
+   items:["2 bags of chips","Family-size Oreos","Candy share bag","2 two-liter sodas"], img:["oreo","lays","skittles","coke"]},
+  {id:"energy", name:"All-Nighter Box", serves:"For 2–3", price:16, was:32,
+   items:["6 Celsius","2 protein bars","Trail mix","Gum"], img:["celsius","proteinbar","trailmix","gum"]},
+  {id:"reset", name:"Sunday Reset Kit", serves:"For 1–2", price:13, was:26,
+   items:["2 Gatorades","Pedialyte","2 Liquid I.V. packets","Crackers + granola bars"], img:["gatorade","pedialyte","liquidiv","cheezit"]}
 ];
-/* ====================== */
+/* ==================== */
 
 const $ = s => document.querySelector(s);
-const cart = {};
-const smsLink = body => "sms:" + PHONE + "?&body=" + encodeURIComponent(body);
-const money = n => "$" + (Math.round(n*100)/100).toFixed(n%1 ? 2 : 0);
-let orderId = "", orderText = "";
+const money = n => "$" + (Math.round(n*100)/100).toFixed(Math.round(n*100)%100 ? 2 : 0);
+const half = p => Math.round(p*50)/100;
+let IMG = {}, CAT = [], cat = "All", shown = 24;
+const cart = {boxes:{}, items:{}, custom:[]};
+document.querySelectorAll(".phoneLink").forEach(a=>{a.href="tel:"+PHONE;a.textContent=PHONE_DISPLAY});
 
-// contact links
-["#topText"].forEach(s=>$(s).href = smsLink("Hey Ryan! Saw Party Box. "));
-["#topCall"].forEach(s=>$(s).href = "tel:" + PHONE);
-["#faqPhone","#footPhone","#stuckPhone"].forEach(s=>{ $(s).href = "tel:" + PHONE; $(s).textContent = PHONE_DISPLAY; });
+function toast(t){ const el=$("#toast"); el.textContent=t; el.classList.add("on"); clearTimeout(toast.t); toast.t=setTimeout(()=>el.classList.remove("on"),1500); }
+function esc(s){ return String(s).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c])); }
 
-function render(){
-  $("#list").innerHTML = BOXES.map(b => {
-    const q = cart[b.id] || 0;
-    return `<div class="box ${q?'sel':''}" id="b-${b.id}">
-      ${b.tag?`<div class="tag ${b.tagc||''}">${b.tag}</div>`:''}
-      <div class="boxhead"><div class="emo">${b.emo}</div>
-        <div><p class="bname">${b.name}</p><div class="serves">${b.serves}</div></div></div>
-      <ul class="items">${b.items.map(i=>`<li>${i}</li>`).join("")}</ul>
-      <div class="boxfoot"><div class="price"><span class="was">CVS price ${money(b.was)}</span>${money(b.price)}<span class="off">50% OFF</span></div>
-        ${q ? `<div class="qty"><button aria-label="Remove one" data-d="-1" data-id="${b.id}">−</button><span>${q}</span><button aria-label="Add one" data-d="1" data-id="${b.id}">+</button></div>`
-            : `<button class="add" data-d="1" data-id="${b.id}">Add</button>`}
-      </div></div>`;
-  }).join("");
-  updateBar();
+function tick(){ const ms = DEADLINE - Date.now(); let t;
+  if(ms<=0) t="last call"; else { const h=Math.floor(ms/36e5), m=Math.floor(ms%36e5/6e4); t=(h?h+"h ":"")+m+"m"; }
+  $("#countA").textContent = ms>0 ? "ends in "+t : t; $("#countB").textContent = t; }
+tick(); setInterval(tick, 30000);
+
+function qtyCtl(kind,id,q){ return q ? `<div class="qty"><button data-k="${kind}" data-id="${esc(id)}" data-d="-1" aria-label="Remove one">−</button><span>${q}</span><button data-k="${kind}" data-id="${esc(id)}" data-d="1" aria-label="Add one">+</button></div>`
+  : `<button class="add" data-k="${kind}" data-id="${esc(id)}" data-d="1">Add</button>`; }
+function renderBoxes(){
+  $("#boxList").innerHTML = BOXES.map(b=>{ const q=cart.boxes[b.id]||0;
+    const pics=b.img.map(k=> IMG[k] ? `<div><img src="${IMG[k]}" alt="" loading="lazy"></div>` : `<div></div>`).join("");
+    return `<div class="box ${q?'sel':''}" id="b-${b.id}"><div class="collage">${b.flag?`<span class="flag ${b.y?'y':''}">${b.flag}</span>`:''}${pics}</div>
+      <div class="bbody"><p class="bname">${b.name}</p><div class="serves">${b.serves}</div>
+      <ul class="bitems">${b.items.map(i=>`<li>${i}</li>`).join("")}</ul>
+      <div class="pricerow"><div><div class="was">CVS price ${money(b.was)}</div><span class="now">${money(b.price)}</span><span class="off">50% OFF</span></div>${qtyCtl("box",b.id,q)}</div></div></div>`; }).join("");
 }
-$("#list").addEventListener("click", e => {
-  const t = e.target.closest("button[data-id]"); if(!t) return;
-  const id = t.dataset.id; cart[id] = Math.max(0, (cart[id]||0) + (+t.dataset.d));
-  if(!cart[id]) delete cart[id];
-  render();
-});
-$("#custom").addEventListener("input", updateBar);
-
-function totals(){
-  let sum = 0, n = 0, names = [];
-  for(const b of BOXES){ const q = cart[b.id]||0; if(q){ sum += q*b.price; n += q; names.push((q>1?q+"× ":"")+b.name); } }
-  const custom = $("#custom").value.trim();
-  if(custom){ sum += 5; names.push("Special request"); }
-  return {sum, n, names, custom};
+function renderCats(){
+  const cats=["All", ...new Set(CAT.map(p=>p.cat))];
+  $("#cats").innerHTML = cats.map(c=>`<button class="chip ${c===cat?'on':''}" data-c="${esc(c)}">${esc(c)}</button>`).join("");
 }
-function updateBar(){
-  const t = totals();
-  const on = t.n || t.custom;
-  $("#bar").classList.toggle("on", !!on);
-  $("#barTotal").textContent = money(t.sum) + (t.custom ? " +" : "");
-  $("#barItems").textContent = t.names.join(", ") || "nothing yet";
+function matches(){
+  const q=$("#q").value.trim().toLowerCase();
+  let list=CAT.filter(p=>cat==="All"||p.cat===cat);
+  if(q){ const w=q.split(/\s+/); list=list.map(p=>{ const hay=(p.name+" "+p.cat+" "+(p.size||"")).toLowerCase(); return [w.filter(x=>hay.includes(x)).length,p]; }).filter(x=>x[0]>0).sort((a,b)=>b[0]-a[0]).map(x=>x[1]); }
+  return list;
 }
-
-function openSheet(){
-  const t = totals();
-  let h = "";
-  for(const b of BOXES){ const q = cart[b.id]||0; if(q) h += `<div class="line"><span>${q}× ${b.name}</span><span>${money(q*b.price)}</span></div>`; }
-  if(t.custom) h += `<div class="line"><span>Special request<br><small style="color:var(--mute)">${escapeHtml(t.custom)}</small></span><span>$5 + half-price items</span></div>`;
-  h += `<div class="line tot"><span>Total</span><span>${money(t.sum)}${t.custom?" + items":""}</span></div>`;
-  $("#lines").innerHTML = h;
-  $("#step1").style.display = "block"; $("#step2").style.display = "none"; $("#err").style.display = "none";
-  $("#scrim").classList.add("on"); $("#sheet").classList.add("on");
-  try{ const s = JSON.parse(localStorage.getItem("pb_me")||"{}"); if(s.name && !$("#name").value) $("#name").value = s.name; if(s.where && !$("#where").value) $("#where").value = s.where; if(s.phone && !$("#phone").value) $("#phone").value = s.phone; }catch(e){}
-}
-function closeSheet(){ $("#scrim").classList.remove("on"); $("#sheet").classList.remove("on"); }
-$("#openSheet").onclick = openSheet;
-$("#closeSheet").onclick = closeSheet;
-$("#scrim").onclick = closeSheet;
-$("#done").onclick = closeSheet;
-
-function escapeHtml(s){ return s.replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c])); }
-
-$("#send").onclick = () => {
-  const t = totals();
-  const name = $("#name").value.trim(), where = $("#where").value.trim(), when = $("#when").value, phone = $("#phone").value.trim();
-  const pay = document.querySelector('input[name=pay]:checked').value;
-  const err = $("#err");
-  if(!t.n && !t.custom){ err.textContent = "Add a box or a special request first."; err.style.display = "block"; return; }
-  if(!name || !where){ err.textContent = "Add your name and where to drop it."; err.style.display = "block"; return; }
-  if(phone.replace(/\D/g,"").length < 10){ err.textContent = "Add your phone number so Ryan can text your ETA."; err.style.display = "block"; return; }
-  try{ localStorage.setItem("pb_me", JSON.stringify({name, where, phone})); }catch(e){}
-  orderId = "PB" + Math.floor(100 + Math.random()*900);
-  const lines = [];
-  for(const b of BOXES){ const q = cart[b.id]||0; if(q) lines.push(`${q}x ${b.name} (${money(q*b.price)})`); }
-  if(t.custom) lines.push(`Special request: ${t.custom} (+$5 delivery, items at half shelf price)`);
-  orderText = `PARTY BOX ORDER ${orderId}\n${lines.join("\n")}\nTotal: ${money(t.sum)}${t.custom?" + request items":""}\nName: ${name}\nPhone: ${phone}\nDrop at: ${where}\nWhen: ${when}\nPaying: ${pay}`;
-  const link = smsLink(orderText);
-  $("#resend").href = link;
-  $("#oid").textContent = orderId;
-  const note = encodeURIComponent(`Party Box ${orderId} 🎉`);
-  let pa = "";
-  if(pay === "Venmo"){
-    const amt = t.sum.toFixed(2);
-    pa = `<div class="big">${money(t.sum)}${t.custom?" now":""}</div>
-      <a class="cta venmo" href="https://venmo.com/${VENMO}?txn=pay&amount=${amt}&note=${note}" target="_blank" rel="noopener">Pay @${VENMO} on Venmo</a>
-      <div class="note">Paying now puts you at the front of the line.${t.custom?" Ryan will Venmo-request the special-request items after buying them.":""}</div>`;
-  } else if(pay === "Zelle"){
-    pa = `<div class="big">${money(t.sum)}</div>
-      <div class="note" style="margin-top:0">Send by Zelle to this email, with <b>${orderId}</b> in the memo:</div>
-      <div class="zelle"><code>${ZELLE}</code><button class="copy" id="cpz">Copy</button></div>
-      ${t.custom?'<div class="note">Ryan will text the special-request total after buying it.</div>':''}`;
-  } else {
-    pa = `<div class="big">${money(t.sum)}${t.custom?" + items":""}</div>
-      <div class="note" style="margin-top:0">Pay Ryan when it arrives, by Venmo (@${VENMO}), Zelle or cash. He'll text you an ETA.</div>`;
+function renderStore(){
+  const list=matches(), q=$("#q").value.trim();
+  if(!list.length){
+    $("#prodList").innerHTML = CAT.length ? `<div class="empty" style="grid-column:1/-1">No match for “${esc(q)}”. <a href="#" id="askIt" style="font-weight:700;color:var(--brand)">Ask for it as a special request →</a></div>` : `<div class="empty" style="grid-column:1/-1">Loading the store…</div>`;
+    const a=$("#askIt"); if(a) a.onclick=e=>{ e.preventDefault(); $("#cItem").value=q; $("#cItem").scrollIntoView({behavior:"smooth",block:"center"}); };
+    $("#moreBtn").style.display="none"; return;
   }
-  $("#payArea").innerHTML = pa;
-  const cp = $("#cpz"); if(cp) cp.onclick = () => copy(ZELLE);
-  $("#step1").style.display = "none"; $("#step2").style.display = "block";
-  try{
-    const digits = phone.replace(/\D/g,"");
-    const qs = new URLSearchParams({
-      title: `New order ${orderId}: ${money(t.sum)}${t.custom?" + request":""} (${pay})`,
-      tags: "tada", priority: "high",
-      actions: `view, Text customer, sms:+1${digits.slice(-10)}; view, Call customer, tel:+1${digits.slice(-10)}`
-    });
-    fetch(ALERT + "?" + qs.toString(), {method:"POST", keepalive:true, body: orderText}).catch(()=>{});
-  }catch(e){}
-  setTimeout(()=>{ window.location.href = link; }, 150);
+  $("#prodList").innerHTML = list.slice(0,shown).map(p=>{ const n=cart.items[p.id]||0;
+    const im = p.img ? `<img src="${esc(p.img)}" alt="" loading="lazy">` : `<div class="ph">${esc(p.name.split(" ").slice(0,2).join(" "))}</div>`;
+    return `<div class="prod"><div class="pimg">${im}</div><p class="pname">${esc(p.name)}</p><div class="psize">${esc(p.size||"")}${p.deal?" · "+esc(p.deal):""}</div>
+      <div class="prow"><div><div class="was">${money(p.price)}</div><span class="now">${money(half(p.price))}</span></div>${qtyCtl("item",p.id,n)}</div></div>`; }).join("");
+  $("#moreBtn").style.display = list.length>shown ? "block" : "none";
+}
+$("#cats").onclick=e=>{ const b=e.target.closest(".chip"); if(!b) return; cat=b.dataset.c; shown=24; renderCats(); renderStore(); };
+$("#moreBtn").onclick=()=>{ shown+=24; renderStore(); };
+$("#q").addEventListener("input",()=>{ shown=24; if($("#q").value && cat!=="All"){ cat="All"; renderCats(); } renderStore(); });
+$("#q").addEventListener("keydown",e=>{ if(e.key==="Enter"){ $("#store").scrollIntoView({behavior:"smooth"}); e.target.blur(); } });
+
+document.addEventListener("click", e=>{
+  const t=e.target.closest("button[data-k]"); if(!t) return;
+  const bag=t.dataset.k==="box"?cart.boxes:cart.items, id=t.dataset.id;
+  bag[id]=Math.max(0,(bag[id]||0)+(+t.dataset.d)); if(!bag[id]) delete bag[id];
+  if(+t.dataset.d>0) toast("Added to cart");
+  t.dataset.k==="box" ? renderBoxes() : renderStore(); update();
+});
+
+function estimate(){
+  const p=parseFloat(($("#cPrice").value||"").replace(/[^0-9.]/g,""));
+  $("#cEst").innerHTML = p>0 ? `Estimate: <b>${money(half(p))}</b> (half of ${money(p)}). We'll confirm the exact price by text before buying.` : `We'll text you the exact price before we buy it. No medicine, alcohol or tobacco.`;
+}
+$("#cPrice").addEventListener("input", estimate);
+$("#cAdd").onclick=()=>{
+  const name=$("#cItem").value.trim(); if(!name){ $("#cItem").focus(); return; }
+  const p=parseFloat(($("#cPrice").value||"").replace(/[^0-9.]/g,""));
+  cart.custom.push({name, shelf:p>0?p:null}); $("#cItem").value=""; $("#cPrice").value=""; estimate(); toast("Request added"); update();
 };
 
-function copy(text){
-  const ok = () => { $("#toast").classList.add("on"); setTimeout(()=>$("#toast").classList.remove("on"), 1400); };
-  if(navigator.clipboard){ navigator.clipboard.writeText(text).then(ok, ()=>fallback()); } else fallback();
-  function fallback(){ const ta = document.createElement("textarea"); ta.value = text; document.body.appendChild(ta); ta.select(); try{document.execCommand("copy"); ok();}catch(e){} ta.remove(); }
+function totals(){
+  let sub=0, saved=0, n=0, names=[], hasBox=false, unknown=0;
+  for(const b of BOXES){ const q=cart.boxes[b.id]||0; if(q){ sub+=q*b.price; saved+=q*(b.was-b.price); n+=q; names.push((q>1?q+"× ":"")+b.name); hasBox=true; } }
+  for(const id in cart.items){ const p=CAT.find(x=>x.id===id); if(!p) continue; const q=cart.items[id]; sub+=q*half(p.price); saved+=q*(p.price-half(p.price)); n+=q; names.push((q>1?q+"× ":"")+p.name); }
+  for(const c of cart.custom){ n++; names.push(c.name); if(c.shelf){ sub+=half(c.shelf); saved+=c.shelf-half(c.shelf); } else unknown++; }
+  const fee = (!hasBox && n>0 && sub<FREE_OVER) ? DELIVERY : 0;
+  return {sub, saved, n, names, fee, total:sub+fee, unknown};
+}
+function update(){
+  const t=totals();
+  $("#cartN").textContent=t.n;
+  $("#bar").classList.toggle("on", t.n>0);
+  $("#barTotal").textContent=money(t.total)+(t.unknown?" +":"");
+  $("#barItems").innerHTML=(t.saved>0?`<span class="saved">You save ${money(t.saved)}</span> · `:"")+esc(t.names.join(", "));
+  try{ localStorage.setItem("pb_cart", JSON.stringify(cart)); }catch(e){}
 }
 
-// deep link: ?box=pregame preselects a box (for per-box posts)
-const pre = new URLSearchParams(location.search).get("box");
-if(pre && BOXES.some(b=>b.id===pre)) cart[pre] = 1;
-render();
-if(pre) setTimeout(()=>document.getElementById("b-"+pre).scrollIntoView({behavior:"smooth",block:"center"}), 300);
+function linesHtml(){
+  const t=totals(); let h="";
+  for(const b of BOXES){ const q=cart.boxes[b.id]||0; if(q) h+=`<div class="line"><span>${q}× ${b.name}</span><span>${money(q*b.price)}</span></div>`; }
+  for(const id in cart.items){ const p=CAT.find(x=>x.id===id); if(p) h+=`<div class="line"><span>${cart.items[id]}× ${esc(p.name)}</span><span>${money(cart.items[id]*half(p.price))}</span></div>`; }
+  cart.custom.forEach((c,i)=> h+=`<div class="line"><span>Request: ${esc(c.name)}</span><span>${c.shelf?money(half(c.shelf))+" est.":"price by text"}<button class="x" data-rm="${i}" aria-label="Remove">✕</button></span></div>`);
+  h+=`<div class="line"><span>Delivery</span><span>${t.fee?money(t.fee):"Free"}</span></div>`;
+  if(t.saved>0) h+=`<div class="line save"><span>You save vs. CVS</span><span>${money(t.saved)}</span></div>`;
+  h+=`<div class="line tot"><span>Total</span><span>${money(t.total)}${t.unknown?" + requests":""}</span></div>`;
+  return h;
+}
+function openSheet(){
+  if(!totals().n){ toast("Add something first"); return; }
+  $("#lines").innerHTML=linesHtml();
+  $("#step1").style.display="block"; $("#step2").style.display="none"; $("#err").style.display="none";
+  $("#scrim").classList.add("on"); $("#sheet").classList.add("on");
+  try{ const s=JSON.parse(localStorage.getItem("pb_me")||"{}"); ["name","phone","where"].forEach(k=>{ if(s[k] && !$("#"+k).value) $("#"+k).value=s[k]; }); }catch(e){}
+}
+function closeSheet(){ $("#scrim").classList.remove("on"); $("#sheet").classList.remove("on"); }
+$("#lines").addEventListener("click",e=>{ const x=e.target.closest("[data-rm]"); if(!x) return; cart.custom.splice(+x.dataset.rm,1); update(); if(!totals().n) closeSheet(); else $("#lines").innerHTML=linesHtml(); });
+$("#openSheet").onclick=openSheet; $("#cartBtn").onclick=openSheet; $("#closeSheet").onclick=closeSheet; $("#scrim").onclick=closeSheet; $("#done").onclick=closeSheet;
+
+const withTimeout=(p,ms)=>Promise.race([p,new Promise((_,rej)=>setTimeout(()=>rej(new Error("timeout")),ms))]);
+
+$("#place").onclick=async ()=>{
+  const t=totals(), err=$("#err");
+  const name=$("#name").value.trim(), phone=$("#phone").value.trim(), where=$("#where").value.trim(), when=$("#when").value, notes=$("#notes").value.trim();
+  const pay=document.querySelector('input[name=pay]:checked').value;
+  const show=m=>{ err.textContent=m; err.style.display="block"; };
+  if(!t.n) return show("Your cart is empty.");
+  if(!name||!where) return show("Add your name and where to drop it.");
+  const digits=phone.replace(/\D/g,"").slice(-10);
+  if(digits.length<10) return show("Add your phone number so Ryan can text your ETA.");
+  try{ localStorage.setItem("pb_me", JSON.stringify({name,phone,where})); }catch(e){}
+  const btn=$("#place"); btn.disabled=true; btn.textContent="Placing order…";
+  const id="PB"+Math.floor(1000+Math.random()*9000);
+  const lines=[];
+  for(const b of BOXES){ const q=cart.boxes[b.id]||0; if(q) lines.push(`${q}x ${b.name} (${money(q*b.price)})`); }
+  for(const k in cart.items){ const p=CAT.find(x=>x.id===k); if(p) lines.push(`${cart.items[k]}x ${p.name} ${p.size||""} (${money(cart.items[k]*half(p.price))}; shelf ${money(p.price)})`); }
+  cart.custom.forEach(c=>lines.push(`REQUEST: ${c.name}${c.shelf?` (shelf ~${money(c.shelf)})`:" (price unknown)"}`));
+  if(t.fee) lines.push(`Delivery ${money(t.fee)}`);
+  const text=`ORDER ${id}\n${lines.join("\n")}\nTOTAL: ${money(t.total)}${t.unknown?" + requests":""}\nName: ${name}\nPhone: ${phone}\nDrop at: ${where}\nWhen: ${when}\nPay: ${pay}${notes?"\nNotes: "+notes:""}`;
+  const title=`${id}: ${money(t.total)}${t.unknown?"+":""} · ${name} · ${where}`.slice(0,120);
+  const qs=new URLSearchParams({title, tags:"tada", priority:"urgent", actions:`view, Text customer, sms:+1${digits}; view, Call customer, tel:+1${digits}`});
+  const sendPush=()=>withTimeout(fetch(ALERT+"?"+qs,{method:"POST",body:text,keepalive:true}).then(r=>{ if(!r.ok) throw new Error(r.status); }),6000);
+  const sendMail=()=>withTimeout(fetch(EMAIL,{method:"POST",headers:{"Content-Type":"application/json","Accept":"application/json"},keepalive:true,
+      body:JSON.stringify({_subject:`Party Box order ${id}: ${money(t.total)} (${name})`,_template:"table",_captcha:"false",order:id,items:lines.join(" | "),total:money(t.total),name,phone,where,when,pay,notes})})
+      .then(r=>r.json()).then(j=>{ if(String(j.success)!=="true") throw new Error(j.message||"mail"); }),8000);
+  const retry=f=>f().catch(()=>new Promise(r=>setTimeout(r,800)).then(f));
+  const res=await Promise.allSettled([retry(sendPush), retry(sendMail)]);
+  const ok=res.some(r=>r.status==="fulfilled");
+  try{ const log=JSON.parse(localStorage.getItem("pb_orders")||"[]"); log.push({id,text,ok,at:Date.now()}); localStorage.setItem("pb_orders",JSON.stringify(log)); }catch(e){}
+  btn.disabled=false; btn.textContent="Place order";
+  const sms="sms:"+PHONE+"?&body="+encodeURIComponent(text);
+  $("#smsBtn").href=sms; $("#oid").textContent=id;
+  $("#sendWarn").innerHTML = ok ? "" : `<div class="warn"><b>One more step:</b> your connection blocked the order from sending. Tap below to text it to Ryan, or call ${PHONE_DISPLAY}.</div><a class="cta full" href="${sms}">Text my order to Ryan</a>`;
+  $("#smsBtn").style.display = ok ? "" : "none";
+  const note=encodeURIComponent(`Party Box ${id}`);
+  let pa="";
+  if(pay==="Venmo") pa=`<div class="big">${money(t.total)}</div><a class="cta venmo full" href="https://venmo.com/${VENMO}?txn=pay&amount=${t.total.toFixed(2)}&note=${note}" target="_blank" rel="noopener">Pay @${VENMO} on Venmo</a><div class="note">Paying now moves you to the front of the line.${t.unknown?" Requests without a price get a Venmo request after we buy them.":""}</div>`;
+  else if(pay==="Zelle") pa=`<div class="big">${money(t.total)}</div><div class="note">Zelle this email with <b>${id}</b> in the memo:</div><div class="zelle"><code>${ZELLE}</code><button class="copy" id="cpz">Copy</button></div>`;
+  else pa=`<div class="big">${money(t.total)}${t.unknown?" +":""}</div><div class="note">Pay when it arrives: Venmo @${VENMO}, Zelle, or cash.</div>`;
+  $("#payArea").innerHTML=pa;
+  const cp=$("#cpz"); if(cp) cp.onclick=()=>{ navigator.clipboard&&navigator.clipboard.writeText(ZELLE).then(()=>toast("Copied")); };
+  $("#step1").style.display="none"; $("#step2").style.display="block";
+  if(ok){ cart.boxes={}; cart.items={}; cart.custom=[]; update(); renderBoxes(); renderStore(); }
+};
+
+$("#leadForm").onsubmit=async e=>{
+  e.preventDefault(); const ph=$("#leadPhone").value.trim(), d=ph.replace(/\D/g,"").slice(-10);
+  if(d.length<10){ toast("Add a 10-digit number"); return; }
+  try{ fetch(ALERT+"?"+new URLSearchParams({title:"New lead: wants a text tonight", tags:"telephone_receiver", actions:`view, Text them, sms:+1${d}`}),{method:"POST",body:"Lead: "+ph,keepalive:true}); }catch(x){}
+  try{ fetch(EMAIL,{method:"POST",headers:{"Content-Type":"application/json","Accept":"application/json"},body:JSON.stringify({_subject:"Party Box lead: "+ph,_captcha:"false",phone:ph}),keepalive:true}); }catch(x){}
+  $("#leadPhone").value=""; toast("Got it! We'll text you tonight.");
+};
+
+async function load(){
+  try{ IMG=await (await fetch("data/images.json",{cache:"no-store"})).json(); }catch(e){}
+  let CI={}; try{ CI=await (await fetch("data/catimg.json",{cache:"no-store"})).json(); }catch(e){}
+  try{ CAT=(await (await fetch("data/catalog.json",{cache:"no-store"})).json()).map((p,i)=>({...p, id:p.id||("p"+i), img:p.img||CI[p.name]||null})); }catch(e){ CAT=[]; }
+  CAT.sort((a,b)=>(b.img?1:0)-(a.img?1:0));
+  try{ const c=JSON.parse(localStorage.getItem("pb_cart")||"null"); if(c){ Object.assign(cart.boxes,c.boxes||{}); for(const k in (c.items||{})) if(CAT.some(p=>p.id===k)) cart.items[k]=c.items[k]; cart.custom=c.custom||[]; } }catch(e){}
+  const pre=new URLSearchParams(location.search).get("box");
+  if(pre && BOXES.some(b=>b.id===pre) && !cart.boxes[pre]) cart.boxes[pre]=1;
+  try{ const cr=await (await fetch("data/credits.json",{cache:"no-store"})).json(); if(cr.length) $("#credits").textContent="Photos: "+cr.join("; ")+"."; }catch(e){}
+  renderBoxes(); renderCats(); renderStore(); update();
+  if(pre) setTimeout(()=>{ const el=document.getElementById("b-"+pre); el&&el.scrollIntoView({behavior:"smooth",block:"center"}); },300);
+}
+load();
 </script>
 </body>
 </html>
