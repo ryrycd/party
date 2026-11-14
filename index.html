@@ -3,10 +3,10 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Party Box · delivered tonight</title>
-<meta name="description" content="Party boxes delivered to your door tonight: snacks, mixers, cups. Order in 30 seconds, pay by Venmo or Zelle. No store run.">
-<meta property="og:title" content="Party Box 🎉 delivered to your door tonight">
-<meta property="og:description" content="Snacks, mixers, cups, delivered by a Babson student. Order in 30 sec. Venmo / Zelle / pay at the door.">
+<title>Party Box · half off CVS prices</title>
+<meta name="description" content="Everything from CVS at half the shelf price, delivered to your door. Today only. Party boxes from $13.">
+<meta property="og:title" content="Party Box 🎉 half off CVS prices, today only">
+<meta property="og:description" content="Snacks, mixers, cups, anything from CVS at half the shelf price, delivered tonight by a Babson student.">
 <meta property="og:image" content="https://ryrycd.github.io/party/og.png">
 <meta property="og:url" content="https://ryrycd.github.io/party/">
 <meta property="og:type" content="website">
@@ -60,6 +60,9 @@ h2{font-family:"Archivo Black",sans-serif;font-size:26px;margin:34px 0 4px}
 .items li{font-size:13px;background:var(--card2);border:1px solid var(--line);padding:4px 9px;border-radius:999px;color:#d9d3ea}
 .boxfoot{display:flex;align-items:center;justify-content:space-between;margin-top:14px}
 .price{font-family:"Archivo Black",sans-serif;font-size:26px}
+.was{display:block;font-family:Inter,sans-serif;font-size:13px;font-weight:600;color:var(--mute);text-decoration:line-through;margin-bottom:-2px}
+.off{display:inline-block;margin-left:8px;font-size:12px;font-weight:800;color:var(--green);vertical-align:middle;font-family:Inter,sans-serif}
+.halfbanner{display:block;margin-top:14px;background:var(--pink);color:#fff;font-weight:800;font-size:17px;text-align:center;padding:12px;border-radius:14px}
 .qty{display:flex;align-items:center;gap:0;background:var(--card2);border:1px solid var(--line);border-radius:12px;overflow:hidden}
 .qty button{width:46px;height:44px;border:0;background:transparent;color:var(--ink);font-size:24px;font-weight:700;cursor:pointer}
 .qty span{min-width:28px;text-align:center;font-weight:800;font-size:18px}
@@ -124,9 +127,9 @@ h2{font-family:"Archivo Black",sans-serif;font-size:26px;margin:34px 0 4px}
     </div>
   </div>
 
-  <div class="live"><span class="dot"></span> Delivering tonight · order till 1 AM</div>
-  <h1>The party,<br><em>at your door.</em></h1>
-  <p class="sub">Snacks, mixers, cups and late-night fuel, boxed up and dropped at your dorm or apartment by a Babson student. No store run, no DoorDash fees.</p>
+  <div class="live"><span class="dot"></span> Today only · delivering till 1 AM</div>
+  <h1>Half off CVS.<br><em>At your door.</em></h1>
+  <p class="sub">Party boxes, snacks, mixers, cups, or anything else from CVS, at <b style="color:var(--ink)">half the shelf price</b>, dropped at your dorm or apartment by a Babson student. Today only.</p>
   <a class="cta" href="#boxes">Pick a box →</a>
 
   <div class="steps3">
@@ -136,7 +139,7 @@ h2{font-family:"Archivo Black",sans-serif;font-size:26px;margin:34px 0 4px}
   </div>
 
   <h2 id="boxes">Tonight's boxes</h2>
-  <p class="h2sub">Everything sealed, straight from the store. Delivery included.</p>
+  <p class="h2sub">Half the CVS shelf price. Everything sealed, straight from the store. Delivery included.</p>
   <div id="list"></div>
 
   <div class="box custom" id="customBox">
@@ -144,11 +147,11 @@ h2{font-family:"Archivo Black",sans-serif;font-size:26px;margin:34px 0 4px}
       <div class="emo">✨</div>
       <div>
         <p class="bname">Special request</p>
-        <div class="serves">Need something else? Chargers, a birthday card, toothbrush, more cups… anything from CVS.</div>
+        <div class="serves">Anything from CVS at half the shelf price: chargers, skincare, razors, snacks, a birthday card, more cups…</div>
       </div>
     </div>
     <textarea id="custom" placeholder="e.g. more cups, a phone charger (USB-C), 3 Celsius, birthday candles"></textarea>
-    <div class="note">Shelf price + $10 delivery. Ryan texts you the exact total before buying. No alcohol or tobacco.</div>
+    <div class="note">Half the shelf price + $5 delivery. Ryan texts you the exact total before buying. No medicine, alcohol or tobacco.</div>
   </div>
 
   <div class="story">
@@ -161,10 +164,11 @@ h2{font-family:"Archivo Black",sans-serif;font-size:26px;margin:34px 0 4px}
     <details><summary>How fast?</summary><p>Usually within an hour. Ryan texts you an ETA as soon as your order comes in. You can also pick a later time.</p></details>
     <details><summary>Do I have to pay up front?</summary><p>No. Pay now with Venmo or Zelle and you go to the front of the line, or pay at the door when it shows up.</p></details>
     <details><summary>Is this legit?</summary><p>Yep. Real person, real phone number: <a id="faqPhone" href="#"></a>. Everything comes sealed, straight from the store.</p></details>
-    <details><summary>Alcohol?</summary><p>No alcohol or tobacco, ever. Mixers, snacks and supplies only.</p></details>
+    <details><summary>How long does half off last?</summary><p>Today only. Orders close at 1 AM, with early-morning drop-offs until 8:30 AM.</p></details>
+    <details><summary>Alcohol?</summary><p>No alcohol, tobacco or medicine. Mixers, snacks and supplies only.</p></details>
   </div>
 
-  <div class="foot">Party Box · Ryan · <a id="footPhone" href="#"></a></div>
+  <div class="foot">Party Box · Ryan · <a id="footPhone" href="#"></a><br>Independent student delivery. Not affiliated with CVS.</div>
 </div>
 
 <!-- sticky order bar -->
@@ -227,16 +231,16 @@ const VENMO = "ryrycd";
 const ZELLE = "ryrycdryrycd@gmail.com";
 const ALERT = "https://ntfy.sh/partybox-ryrycd-e578e3b5";
 const BOXES = [
-  {id:"pregame", emo:"🎉", name:"Pregame Box", serves:"Feeds 6–8", price:45, tag:"Most popular", tagc:"y",
-   items:["2 big bags of chips","Salsa","4 bottles of mixers","50 party cups","Napkins"]},
-  {id:"whole", emo:"🪩", name:"The Whole Party", serves:"Feeds 15–20", price:89, tag:"Best value",
-   items:["5 big bags of chips + salsa","8 bottles of mixers","2 candy share bags","100 party cups","Plates + napkins"]},
-  {id:"munchies", emo:"🍿", name:"Late-Night Munchies", serves:"For 3–4", price:29,
-   items:["2 bags of chips","Oreos","Candy share bag","2 sodas"]},
-  {id:"energy", emo:"⚡", name:"All-Nighter Box", serves:"For 2–3", price:39,
-   items:["6 Celsius or Red Bull","Protein bars","Trail mix","Gum"]},
-  {id:"reset", emo:"🌅", name:"Sunday Reset Kit", serves:"For 1–2", price:25,
-   items:["2 Gatorades","2 Liquid I.V. packets","Crackers + granola bars"]}
+  {id:"pregame", emo:"🎉", name:"Pregame Box", serves:"Feeds 6–8", price:22, was:45, tag:"Most popular", tagc:"y",
+   items:["2 big bags of chips","Salsa","4 two-liter mixers","50 party cups","Napkins"]},
+  {id:"whole", emo:"🪩", name:"The Whole Party", serves:"Feeds 15–20", price:52, was:104, tag:"Best value",
+   items:["5 big bags of chips + salsa","8 two-liter mixers","2 candy share bags","100 party cups","Plates + napkins"]},
+  {id:"munchies", emo:"🍿", name:"Late-Night Munchies", serves:"For 3–4", price:16, was:33,
+   items:["2 bags of chips","Family-size Oreos","Candy share bag","2 two-liter sodas"]},
+  {id:"energy", emo:"⚡", name:"All-Nighter Box", serves:"For 2–3", price:16, was:32,
+   items:["6 Celsius","2 protein bars","Trail mix","Gum"]},
+  {id:"reset", emo:"🌅", name:"Sunday Reset Kit", serves:"For 1–2", price:13, was:26,
+   items:["2 Gatorades","Pedialyte","2 Liquid I.V. packets","Crackers + granola bars"]}
 ];
 /* ====================== */
 
@@ -259,7 +263,7 @@ function render(){
       <div class="boxhead"><div class="emo">${b.emo}</div>
         <div><p class="bname">${b.name}</p><div class="serves">${b.serves}</div></div></div>
       <ul class="items">${b.items.map(i=>`<li>${i}</li>`).join("")}</ul>
-      <div class="boxfoot"><div class="price">${money(b.price)}</div>
+      <div class="boxfoot"><div class="price"><span class="was">CVS price ${money(b.was)}</span>${money(b.price)}<span class="off">50% OFF</span></div>
         ${q ? `<div class="qty"><button aria-label="Remove one" data-d="-1" data-id="${b.id}">−</button><span>${q}</span><button aria-label="Add one" data-d="1" data-id="${b.id}">+</button></div>`
             : `<button class="add" data-d="1" data-id="${b.id}">Add</button>`}
       </div></div>`;
@@ -278,7 +282,7 @@ function totals(){
   let sum = 0, n = 0, names = [];
   for(const b of BOXES){ const q = cart[b.id]||0; if(q){ sum += q*b.price; n += q; names.push((q>1?q+"× ":"")+b.name); } }
   const custom = $("#custom").value.trim();
-  if(custom){ sum += 10; names.push("Special request"); }
+  if(custom){ sum += 5; names.push("Special request"); }
   return {sum, n, names, custom};
 }
 function updateBar(){
@@ -293,7 +297,7 @@ function openSheet(){
   const t = totals();
   let h = "";
   for(const b of BOXES){ const q = cart[b.id]||0; if(q) h += `<div class="line"><span>${q}× ${b.name}</span><span>${money(q*b.price)}</span></div>`; }
-  if(t.custom) h += `<div class="line"><span>Special request<br><small style="color:var(--mute)">${escapeHtml(t.custom)}</small></span><span>$10 + items</span></div>`;
+  if(t.custom) h += `<div class="line"><span>Special request<br><small style="color:var(--mute)">${escapeHtml(t.custom)}</small></span><span>$5 + half-price items</span></div>`;
   h += `<div class="line tot"><span>Total</span><span>${money(t.sum)}${t.custom?" + items":""}</span></div>`;
   $("#lines").innerHTML = h;
   $("#step1").style.display = "block"; $("#step2").style.display = "none"; $("#err").style.display = "none";
@@ -320,7 +324,7 @@ $("#send").onclick = () => {
   orderId = "PB" + Math.floor(100 + Math.random()*900);
   const lines = [];
   for(const b of BOXES){ const q = cart[b.id]||0; if(q) lines.push(`${q}x ${b.name} (${money(q*b.price)})`); }
-  if(t.custom) lines.push(`Special request: ${t.custom} (+$10 delivery)`);
+  if(t.custom) lines.push(`Special request: ${t.custom} (+$5 delivery, items at half shelf price)`);
   orderText = `PARTY BOX ORDER ${orderId}\n${lines.join("\n")}\nTotal: ${money(t.sum)}${t.custom?" + request items":""}\nName: ${name}\nPhone: ${phone}\nDrop at: ${where}\nWhen: ${when}\nPaying: ${pay}`;
   const link = smsLink(orderText);
   $("#resend").href = link;
