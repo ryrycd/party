@@ -1,0 +1,359 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Party Box · delivered tonight</title>
+<meta name="description" content="Party boxes delivered to your door tonight: snacks, mixers, cups. Order in 30 seconds, pay by Venmo or Zelle. No store run.">
+<meta property="og:title" content="Party Box 🎉 delivered to your door tonight">
+<meta property="og:description" content="Snacks, mixers, cups, delivered by a Babson student. Order in 30 sec. Venmo / Zelle / pay at the door.">
+<meta property="og:image" content="https://ryrycd.github.io/party/og.png">
+<meta property="og:url" content="https://ryrycd.github.io/party/">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#0d0b14">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎉</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#0d0b14; --card:#17141f; --card2:#201c2b; --line:#2c2738;
+  --ink:#f6f3ff; --mute:#a69fb8; --hot:#ffe14d; --pink:#ff4fa3; --green:#3ddc84; --blue:#5ab0ff;
+  --r:18px;
+}
+*{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+html,body{margin:0;background:var(--bg);color:var(--ink);font-family:Inter,system-ui,-apple-system,sans-serif;font-size:16px;line-height:1.45}
+body{padding-bottom:110px}
+a{color:inherit}
+.wrap{max-width:560px;margin:0 auto;padding:0 16px}
+.top{display:flex;align-items:center;justify-content:space-between;padding:14px 0}
+.logo{font-family:"Archivo Black",sans-serif;font-size:20px;letter-spacing:.5px}
+.logo span{color:var(--hot)}
+.toplinks{display:flex;gap:8px}
+.pill{display:inline-flex;align-items:center;gap:6px;padding:8px 12px;border-radius:999px;background:var(--card2);border:1px solid var(--line);font-weight:600;font-size:14px;text-decoration:none}
+.live{display:inline-flex;align-items:center;gap:8px;font-size:13px;font-weight:700;color:var(--green);background:rgba(61,220,132,.1);border:1px solid rgba(61,220,132,.35);padding:6px 12px;border-radius:999px;margin-top:6px}
+.dot{width:8px;height:8px;border-radius:50%;background:var(--green);box-shadow:0 0 0 0 rgba(61,220,132,.7);animation:p 1.6s infinite}
+@keyframes p{0%{box-shadow:0 0 0 0 rgba(61,220,132,.6)}100%{box-shadow:0 0 0 10px rgba(61,220,132,0)}}
+h1{font-family:"Archivo Black",sans-serif;font-size:44px;line-height:1.02;margin:14px 0 10px;letter-spacing:-.5px}
+h1 em{font-style:normal;color:var(--hot)}
+.sub{color:var(--mute);font-size:17px;margin:0 0 16px}
+.steps3{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin:18px 0 8px}
+.steps3 div{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:12px 10px;font-size:13px;color:var(--mute)}
+.steps3 b{display:block;color:var(--ink);font-size:15px;margin-bottom:2px}
+.cta{display:block;width:100%;text-align:center;background:var(--hot);color:#111;font-weight:800;font-size:18px;padding:16px;border-radius:14px;border:0;text-decoration:none;cursor:pointer;font-family:inherit}
+.cta:active{transform:scale(.98)}
+.cta.ghost{background:transparent;color:var(--ink);border:1px solid var(--line)}
+.cta.venmo{background:#008cff;color:#fff}
+.cta.green{background:var(--green);color:#062}
+h2{font-family:"Archivo Black",sans-serif;font-size:26px;margin:34px 0 4px}
+.h2sub{color:var(--mute);margin:0 0 14px;font-size:15px}
+.box{background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:16px;margin-bottom:12px;position:relative;overflow:hidden}
+.box.sel{border-color:var(--hot);box-shadow:0 0 0 1px var(--hot) inset}
+.boxhead{display:flex;gap:14px;align-items:flex-start}
+.emo{font-size:40px;line-height:1;width:58px;height:58px;display:grid;place-items:center;background:var(--card2);border-radius:14px;flex:none}
+.bname{font-weight:800;font-size:19px;margin:0}
+.serves{color:var(--mute);font-size:13px;margin-top:2px}
+.tag{position:absolute;top:12px;right:12px;font-size:11px;font-weight:800;letter-spacing:.6px;text-transform:uppercase;background:var(--pink);color:#fff;padding:4px 8px;border-radius:999px}
+.tag.y{background:var(--hot);color:#111}
+.items{margin:12px 0 0;padding:0;list-style:none;display:flex;flex-wrap:wrap;gap:6px}
+.items li{font-size:13px;background:var(--card2);border:1px solid var(--line);padding:4px 9px;border-radius:999px;color:#d9d3ea}
+.boxfoot{display:flex;align-items:center;justify-content:space-between;margin-top:14px}
+.price{font-family:"Archivo Black",sans-serif;font-size:26px}
+.qty{display:flex;align-items:center;gap:0;background:var(--card2);border:1px solid var(--line);border-radius:12px;overflow:hidden}
+.qty button{width:46px;height:44px;border:0;background:transparent;color:var(--ink);font-size:24px;font-weight:700;cursor:pointer}
+.qty span{min-width:28px;text-align:center;font-weight:800;font-size:18px}
+.add{background:var(--hot);color:#111;border:0;font-weight:800;font-size:16px;padding:11px 18px;border-radius:12px;cursor:pointer;font-family:inherit}
+.custom textarea,.f input,.f textarea,.f select{width:100%;background:var(--card2);border:1px solid var(--line);color:var(--ink);border-radius:12px;padding:13px 14px;font:inherit;font-size:16px;outline:none}
+.custom textarea:focus,.f input:focus,.f textarea:focus,.f select:focus{border-color:var(--hot)}
+.custom textarea{min-height:84px;margin-top:12px;resize:vertical}
+.note{font-size:13px;color:var(--mute);margin-top:8px}
+.story{background:linear-gradient(135deg,#2a1640,#151022);border:1px solid #3b2a55;border-radius:var(--r);padding:18px;margin-top:34px}
+.story b{color:var(--hot)}
+.faq details{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px 16px;margin-bottom:8px}
+.faq summary{font-weight:700;cursor:pointer;list-style:none}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary::after{content:"+";float:right;color:var(--mute)}
+.faq details[open] summary::after{content:"–"}
+.faq p{color:var(--mute);margin:8px 0 0;font-size:15px}
+.foot{color:var(--mute);font-size:13px;text-align:center;margin:30px 0 10px}
+/* sticky bar */
+.bar{position:fixed;left:0;right:0;bottom:0;padding:12px 16px calc(12px + env(safe-area-inset-bottom));background:rgba(13,11,20,.92);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);border-top:1px solid var(--line);z-index:20;transform:translateY(110%);transition:transform .25s ease}
+.bar.on{transform:none}
+.bar .in{max-width:560px;margin:0 auto;display:flex;gap:12px;align-items:center}
+.bar .sum{flex:1;min-width:0}
+.bar .sum b{font-family:"Archivo Black",sans-serif;font-size:22px;display:block}
+.bar .sum small{color:var(--mute);font-size:13px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;display:block}
+.bar .cta{width:auto;padding:14px 22px;flex:none}
+/* sheet */
+.scrim{position:fixed;inset:0;background:rgba(0,0,0,.6);z-index:30;opacity:0;pointer-events:none;transition:opacity .2s}
+.scrim.on{opacity:1;pointer-events:auto}
+.sheet{position:fixed;left:0;right:0;bottom:0;max-height:92vh;overflow:auto;background:#12101a;border-top-left-radius:22px;border-top-right-radius:22px;border:1px solid var(--line);z-index:31;transform:translateY(105%);transition:transform .28s cubic-bezier(.2,.8,.2,1);padding:8px 0 calc(20px + env(safe-area-inset-bottom))}
+.sheet.on{transform:none}
+.grab{width:42px;height:5px;border-radius:9px;background:#3a3448;margin:6px auto 10px}
+.sheet h3{font-family:"Archivo Black",sans-serif;font-size:24px;margin:4px 0 12px}
+.lines{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:12px 14px;margin-bottom:14px}
+.line{display:flex;justify-content:space-between;padding:4px 0;font-size:15px}
+.line.tot{border-top:1px solid var(--line);margin-top:6px;padding-top:10px;font-weight:800;font-size:18px}
+.f label{display:block;font-weight:700;font-size:14px;margin:12px 0 6px}
+.f .row{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.pay{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}
+.pay label{margin:0}
+.pay input{display:none}
+.pay span{display:block;text-align:center;padding:12px 6px;border-radius:12px;background:var(--card2);border:1px solid var(--line);font-weight:700;font-size:14px;cursor:pointer}
+.pay input:checked+span{border-color:var(--hot);background:rgba(255,225,77,.1);color:var(--hot)}
+.err{color:#ff7a7a;font-size:14px;margin-top:10px;display:none}
+.step2{display:none}
+.big{font-family:"Archivo Black",sans-serif;font-size:30px;margin:2px 0}
+.zelle{display:flex;gap:8px;align-items:center;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px;margin-top:10px}
+.zelle code{flex:1;font-size:14px;word-break:break-all}
+.copy{background:#6d1ed4;color:#fff;border:0;border-radius:10px;padding:10px 12px;font-weight:700;cursor:pointer;font-family:inherit}
+.oid{display:inline-block;background:var(--card2);border:1px solid var(--line);border-radius:8px;padding:2px 8px;font-weight:800;color:var(--hot)}
+.toast{position:fixed;left:50%;top:18px;transform:translateX(-50%) translateY(-80px);background:var(--green);color:#052;font-weight:800;padding:10px 16px;border-radius:999px;z-index:50;transition:transform .25s}
+.toast.on{transform:translateX(-50%) translateY(0)}
+@media (max-width:380px){h1{font-size:38px}.steps3 div{font-size:12px}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="top">
+    <div class="logo">PARTY<span>BOX</span></div>
+    <div class="toplinks">
+      <a class="pill" id="topText" href="#">💬 Text</a>
+      <a class="pill" id="topCall" href="#">📞 Call</a>
+    </div>
+  </div>
+
+  <div class="live"><span class="dot"></span> Delivering tonight · order till 1 AM</div>
+  <h1>The party,<br><em>at your door.</em></h1>
+  <p class="sub">Snacks, mixers, cups and late-night fuel, boxed up and dropped at your dorm or apartment by a Babson student. No store run, no DoorDash fees.</p>
+  <a class="cta" href="#boxes">Pick a box →</a>
+
+  <div class="steps3">
+    <div><b>1. Pick</b>a box or ask for anything from CVS</div>
+    <div><b>2. Text</b>your order sends in one tap</div>
+    <div><b>3. Done</b>we drop it off. Pay now or at the door</div>
+  </div>
+
+  <h2 id="boxes">Tonight's boxes</h2>
+  <p class="h2sub">Everything sealed, straight from the store. Delivery included.</p>
+  <div id="list"></div>
+
+  <div class="box custom" id="customBox">
+    <div class="boxhead">
+      <div class="emo">✨</div>
+      <div>
+        <p class="bname">Special request</p>
+        <div class="serves">Need something else? Chargers, ice, a birthday card, toothbrush, more cups… anything from CVS.</div>
+      </div>
+    </div>
+    <textarea id="custom" placeholder="e.g. 2 bags of ice, a phone charger (USB-C), 3 Celsius, birthday candles"></textarea>
+    <div class="note">Shelf price + $10 delivery. Ryan texts you the exact total before buying. No alcohol or tobacco.</div>
+  </div>
+
+  <div class="story">
+    <b>Why this exists:</b> we're Babson students in a 24-hour challenge, turning $500 into as much as we can by Sunday 9 AM, and filming the whole thing. Every box you order helps. 🙏
+  </div>
+
+  <h2>Questions</h2>
+  <div class="faq">
+    <details><summary>Where do you deliver?</summary><p>Babson campus, Cambridge and Boston (BU, Northeastern, Harvard, Fenway, Allston). Somewhere else? Text us and we'll tell you if we can make it.</p></details>
+    <details><summary>How fast?</summary><p>Usually within an hour. Ryan texts you an ETA as soon as your order comes in. You can also pick a later time.</p></details>
+    <details><summary>Do I have to pay up front?</summary><p>No. Pay now with Venmo or Zelle and you go to the front of the line, or pay at the door when it shows up.</p></details>
+    <details><summary>Is this legit?</summary><p>Yep. Real person, real phone number: <a id="faqPhone" href="#"></a>. Everything comes sealed, straight from the store.</p></details>
+    <details><summary>Alcohol?</summary><p>No alcohol or tobacco, ever. Mixers, snacks and supplies only.</p></details>
+  </div>
+
+  <div class="foot">Party Box · Ryan · <a id="footPhone" href="#"></a></div>
+</div>
+
+<!-- sticky order bar -->
+<div class="bar" id="bar"><div class="in">
+  <div class="sum"><b id="barTotal">$0</b><small id="barItems">nothing yet</small></div>
+  <button class="cta" id="openSheet">Order →</button>
+</div></div>
+
+<div class="scrim" id="scrim"></div>
+<div class="sheet" id="sheet"><div class="wrap">
+  <div class="grab"></div>
+
+  <div class="step1" id="step1">
+    <h3>Your order</h3>
+    <div class="lines" id="lines"></div>
+    <div class="f">
+      <div class="row">
+        <div><label for="name">Your name</label><input id="name" autocomplete="given-name" placeholder="First name"></div>
+        <div><label for="when">When</label>
+          <select id="when"><option>ASAP</option><option>In 1–2 hours</option><option>9–10 PM</option><option>10–11 PM</option><option>11 PM–midnight</option><option>Midnight–1 AM</option><option>Tomorrow 7–8:30 AM</option></select></div>
+      </div>
+      <label for="where">Where to drop it</label>
+      <input id="where" placeholder="Dorm + room, or full address">
+      <label>How you'll pay</label>
+      <div class="pay">
+        <label><input type="radio" name="pay" value="Venmo" checked><span>Venmo</span></label>
+        <label><input type="radio" name="pay" value="Zelle"><span>Zelle</span></label>
+        <label><input type="radio" name="pay" value="At the door"><span>At the door</span></label>
+      </div>
+      <div class="err" id="err"></div>
+      <div style="height:16px"></div>
+      <button class="cta" id="send">Send order by text 💬</button>
+      <div class="note" style="text-align:center">Opens your Messages app with the order filled in. Just hit send.</div>
+      <div style="height:10px"></div>
+      <button class="cta ghost" id="closeSheet">Keep shopping</button>
+    </div>
+  </div>
+
+  <div class="step2" id="step2">
+    <h3>Almost done ✅</h3>
+    <p style="margin:0 0 6px;color:var(--mute)">Order <span class="oid" id="oid"></span>. Make sure the text actually sent, then pay below.</p>
+    <div id="payArea"></div>
+    <div style="height:12px"></div>
+    <a class="cta ghost" id="resend" href="#">Text didn't open? Tap to try again</a>
+    <div class="note" style="text-align:center;margin-top:10px">Still stuck? Call or text <a id="stuckPhone" href="#"></a>.</div>
+    <div style="height:10px"></div>
+    <button class="cta ghost" id="done">Close</button>
+  </div>
+</div></div>
+
+<div class="toast" id="toast">Copied ✓</div>
+
+<script>
+/* ===== edit these ===== */
+const PHONE = "+17042499818";
+const PHONE_DISPLAY = "(704) 249-9818";
+const VENMO = "ryrycd";
+const ZELLE = "ryrycdryrycd@gmail.com";
+const BOXES = [
+  {id:"pregame", emo:"🎉", name:"Pregame Box", serves:"Feeds 6–8", price:45, tag:"Most popular", tagc:"y",
+   items:["2 family-size chips","Salsa or dip","3 two-liter mixers","50 party cups","Napkins"]},
+  {id:"whole", emo:"🪩", name:"The Whole Party", serves:"Feeds 15–20", price:89, tag:"Best value",
+   items:["5 family-size chips + dip","6 two-liter mixers","2 candy share bags","100 party cups","Plates + napkins"]},
+  {id:"munchies", emo:"🍿", name:"Late-Night Munchies", serves:"For 3–4", price:29,
+   items:["2 bags of chips","Oreos","2 candy share bags","4 drinks"]},
+  {id:"energy", emo:"⚡", name:"All-Nighter Box", serves:"For 2–3", price:39,
+   items:["6 Celsius or Red Bull","Protein bars","Trail mix","Gum"]},
+  {id:"reset", emo:"🌅", name:"Sunday Reset Kit", serves:"For 1–2", price:25,
+   items:["2 Gatorades","Liquid I.V.","Pedialyte","Crackers + granola bars"]}
+];
+/* ====================== */
+
+const $ = s => document.querySelector(s);
+const cart = {};
+const smsLink = body => "sms:" + PHONE + "?&body=" + encodeURIComponent(body);
+const money = n => "$" + (Math.round(n*100)/100).toFixed(n%1 ? 2 : 0);
+let orderId = "", orderText = "";
+
+// contact links
+["#topText"].forEach(s=>$(s).href = smsLink("Hey Ryan! Saw Party Box. "));
+["#topCall"].forEach(s=>$(s).href = "tel:" + PHONE);
+["#faqPhone","#footPhone","#stuckPhone"].forEach(s=>{ $(s).href = "tel:" + PHONE; $(s).textContent = PHONE_DISPLAY; });
+
+function render(){
+  $("#list").innerHTML = BOXES.map(b => {
+    const q = cart[b.id] || 0;
+    return `<div class="box ${q?'sel':''}" id="b-${b.id}">
+      ${b.tag?`<div class="tag ${b.tagc||''}">${b.tag}</div>`:''}
+      <div class="boxhead"><div class="emo">${b.emo}</div>
+        <div><p class="bname">${b.name}</p><div class="serves">${b.serves}</div></div></div>
+      <ul class="items">${b.items.map(i=>`<li>${i}</li>`).join("")}</ul>
+      <div class="boxfoot"><div class="price">${money(b.price)}</div>
+        ${q ? `<div class="qty"><button aria-label="Remove one" data-d="-1" data-id="${b.id}">−</button><span>${q}</span><button aria-label="Add one" data-d="1" data-id="${b.id}">+</button></div>`
+            : `<button class="add" data-d="1" data-id="${b.id}">Add</button>`}
+      </div></div>`;
+  }).join("");
+  updateBar();
+}
+$("#list").addEventListener("click", e => {
+  const t = e.target.closest("button[data-id]"); if(!t) return;
+  const id = t.dataset.id; cart[id] = Math.max(0, (cart[id]||0) + (+t.dataset.d));
+  if(!cart[id]) delete cart[id];
+  render();
+});
+$("#custom").addEventListener("input", updateBar);
+
+function totals(){
+  let sum = 0, n = 0, names = [];
+  for(const b of BOXES){ const q = cart[b.id]||0; if(q){ sum += q*b.price; n += q; names.push((q>1?q+"× ":"")+b.name); } }
+  const custom = $("#custom").value.trim();
+  if(custom){ sum += 10; names.push("Special request"); }
+  return {sum, n, names, custom};
+}
+function updateBar(){
+  const t = totals();
+  const on = t.n || t.custom;
+  $("#bar").classList.toggle("on", !!on);
+  $("#barTotal").textContent = money(t.sum) + (t.custom ? " +" : "");
+  $("#barItems").textContent = t.names.join(", ") || "nothing yet";
+}
+
+function openSheet(){
+  const t = totals();
+  let h = "";
+  for(const b of BOXES){ const q = cart[b.id]||0; if(q) h += `<div class="line"><span>${q}× ${b.name}</span><span>${money(q*b.price)}</span></div>`; }
+  if(t.custom) h += `<div class="line"><span>Special request<br><small style="color:var(--mute)">${escapeHtml(t.custom)}</small></span><span>$10 + items</span></div>`;
+  h += `<div class="line tot"><span>Total</span><span>${money(t.sum)}${t.custom?" + items":""}</span></div>`;
+  $("#lines").innerHTML = h;
+  $("#step1").style.display = "block"; $("#step2").style.display = "none"; $("#err").style.display = "none";
+  $("#scrim").classList.add("on"); $("#sheet").classList.add("on");
+  try{ const s = JSON.parse(localStorage.getItem("pb_me")||"{}"); if(s.name && !$("#name").value) $("#name").value = s.name; if(s.where && !$("#where").value) $("#where").value = s.where; }catch(e){}
+}
+function closeSheet(){ $("#scrim").classList.remove("on"); $("#sheet").classList.remove("on"); }
+$("#openSheet").onclick = openSheet;
+$("#closeSheet").onclick = closeSheet;
+$("#scrim").onclick = closeSheet;
+$("#done").onclick = closeSheet;
+
+function escapeHtml(s){ return s.replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c])); }
+
+$("#send").onclick = () => {
+  const t = totals();
+  const name = $("#name").value.trim(), where = $("#where").value.trim(), when = $("#when").value;
+  const pay = document.querySelector('input[name=pay]:checked').value;
+  const err = $("#err");
+  if(!t.n && !t.custom){ err.textContent = "Add a box or a special request first."; err.style.display = "block"; return; }
+  if(!name || !where){ err.textContent = "Add your name and where to drop it."; err.style.display = "block"; return; }
+  try{ localStorage.setItem("pb_me", JSON.stringify({name, where})); }catch(e){}
+  orderId = "PB" + Math.floor(100 + Math.random()*900);
+  const lines = [];
+  for(const b of BOXES){ const q = cart[b.id]||0; if(q) lines.push(`${q}x ${b.name} (${money(q*b.price)})`); }
+  if(t.custom) lines.push(`Special request: ${t.custom} (+$10 delivery)`);
+  orderText = `PARTY BOX ORDER ${orderId}\n${lines.join("\n")}\nTotal: ${money(t.sum)}${t.custom?" + request items":""}\nName: ${name}\nDrop at: ${where}\nWhen: ${when}\nPaying: ${pay}`;
+  const link = smsLink(orderText);
+  $("#resend").href = link;
+  $("#oid").textContent = orderId;
+  const note = encodeURIComponent(`Party Box ${orderId} 🎉`);
+  let pa = "";
+  if(pay === "Venmo"){
+    const amt = t.sum.toFixed(2);
+    pa = `<div class="big">${money(t.sum)}${t.custom?" now":""}</div>
+      <a class="cta venmo" href="https://venmo.com/${VENMO}?txn=pay&amount=${amt}&note=${note}" target="_blank" rel="noopener">Pay @${VENMO} on Venmo</a>
+      <div class="note">Paying now puts you at the front of the line.${t.custom?" Ryan will Venmo-request the special-request items after buying them.":""}</div>`;
+  } else if(pay === "Zelle"){
+    pa = `<div class="big">${money(t.sum)}</div>
+      <div class="note" style="margin-top:0">Send by Zelle to this email, with <b>${orderId}</b> in the memo:</div>
+      <div class="zelle"><code>${ZELLE}</code><button class="copy" id="cpz">Copy</button></div>
+      ${t.custom?'<div class="note">Ryan will text the special-request total after buying it.</div>':''}`;
+  } else {
+    pa = `<div class="big">${money(t.sum)}${t.custom?" + items":""}</div>
+      <div class="note" style="margin-top:0">Pay Ryan when it arrives, by Venmo (@${VENMO}), Zelle or cash. He'll text you an ETA.</div>`;
+  }
+  $("#payArea").innerHTML = pa;
+  const cp = $("#cpz"); if(cp) cp.onclick = () => copy(ZELLE);
+  $("#step1").style.display = "none"; $("#step2").style.display = "block";
+  window.location.href = link;
+};
+
+function copy(text){
+  const ok = () => { $("#toast").classList.add("on"); setTimeout(()=>$("#toast").classList.remove("on"), 1400); };
+  if(navigator.clipboard){ navigator.clipboard.writeText(text).then(ok, ()=>fallback()); } else fallback();
+  function fallback(){ const ta = document.createElement("textarea"); ta.value = text; document.body.appendChild(ta); ta.select(); try{document.execCommand("copy"); ok();}catch(e){} ta.remove(); }
+}
+
+// deep link: ?box=pregame preselects a box (for per-box posts)
+const pre = new URLSearchParams(location.search).get("box");
+if(pre && BOXES.some(b=>b.id===pre)) cart[pre] = 1;
+render();
+if(pre) setTimeout(()=>document.getElementById("b-"+pre).scrollIntoView({behavior:"smooth",block:"center"}), 300);
+</script>
+</body>
+</html>
