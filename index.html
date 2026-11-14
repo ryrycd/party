@@ -55,7 +55,7 @@ h1 .u{background:linear-gradient(transparent 62%,var(--tag) 62%)}
 .trust{display:flex;gap:16px;flex-wrap:wrap;margin-top:18px;font-size:14px;color:var(--mute);font-weight:500}
 .trust b{color:var(--ink)}
 .count{font-variant-numeric:tabular-nums}
-.heroimg{position:relative;border-radius:24px;overflow:hidden;background:var(--soft);aspect-ratio:1/1;box-shadow:var(--shadow)}
+.heroimg{position:relative;border-radius:24px;overflow:hidden;background:#fff4c2;aspect-ratio:1/1;box-shadow:var(--shadow)}
 .heroimg img.photo{width:100%;height:100%;object-fit:cover}
 .heroimg .badge{position:absolute;left:14px;bottom:14px;background:#fff;border-radius:14px;padding:10px 14px;box-shadow:var(--shadow);font-weight:800;font-size:15px}
 .heroimg .badge small{display:block;color:var(--mute);font-weight:600;font-size:12px}
@@ -67,7 +67,7 @@ h2{font-size:28px;letter-spacing:-.6px;margin:40px 0 4px;font-weight:900}
 .box.sel{outline:2.5px solid var(--brand)}
 .collage{position:relative;background:var(--soft);display:grid;grid-template-columns:repeat(4,1fr);gap:6px;padding:34px 10px 10px}
 .collage div{background:#fff;border-radius:12px;aspect-ratio:3/4;overflow:hidden;min-height:0;display:flex;align-items:center;justify-content:center}
-.collage img{width:100%;height:100%;object-fit:cover}
+.collage img{width:92%;height:92%;object-fit:contain}
 .collage .flag{position:absolute;left:10px;top:10px;background:var(--ink);color:#fff;font-size:11px;font-weight:800;letter-spacing:.4px;text-transform:uppercase;border-radius:999px;padding:4px 9px;z-index:2}
 .collage .flag.y{background:var(--tag);color:#111}
 .bbody{padding:14px 14px 16px;display:flex;flex-direction:column;flex:1}
@@ -112,6 +112,10 @@ h2{font-size:28px;letter-spacing:-.6px;margin:40px 0 4px;font-weight:900}
 .how span{color:var(--mute);font-size:14px}
 .photo2{border-radius:20px;overflow:hidden;margin-top:14px;aspect-ratio:21/8;background:var(--soft)}
 .photo2 img{width:100%;height:100%;object-fit:cover}
+.promise{display:flex;gap:16px;align-items:center;border:2px solid var(--brand);background:#f1f8f4;border-radius:20px;padding:18px;margin-top:14px}
+.promise h3{margin:0 0 4px;font-size:19px;letter-spacing:-.3px}
+.promise p{margin:0;color:#3b3b38;font-size:15px}
+.pbadge{flex:none;width:64px;height:64px;border-radius:50%;background:var(--brand);color:#fff;font-weight:900;font-size:24px;display:grid;place-items:center}
 .lead2{background:var(--ink);color:#fff;border-radius:20px;padding:20px;display:grid;grid-template-columns:1.3fr 1fr;gap:16px;align-items:center;margin-top:40px}
 .lead2 h3{margin:0 0 4px;font-size:22px}
 .lead2 p{margin:0;color:#c9c9c4;font-size:15px}
@@ -168,7 +172,7 @@ footer{color:var(--mute);font-size:12px;margin:36px 0 10px;line-height:1.6}
 .toast.on{transform:translateX(-50%) translateY(0)}
 @media (max-width:820px){
   .hero{grid-template-columns:1fr;gap:18px;padding-top:18px}
-  .heroimg{aspect-ratio:16/10;order:-1}
+  .heroimg{aspect-ratio:4/3;order:-1}
   h1{font-size:40px}
   .custom{grid-template-columns:1fr}
   .how{grid-template-columns:1fr}
@@ -179,7 +183,7 @@ footer{color:var(--mute);font-size:12px;margin:36px 0 10px;line-height:1.6}
 </style>
 </head>
 <body>
-<div class="ann">🛵 Today only: <b>half the CVS shelf price</b> on everything · <span class="count" id="countA"></span></div>
+<div class="ann"><b>$0 upfront.</b> Pay when it's at your door · half the CVS shelf price · <span class="count" id="countA"></span></div>
 <header class="top"><div class="wrap topin">
   <a class="logo" href="#"><i>PB</i><span>Party Box</span></a>
   <div class="search">
@@ -193,24 +197,24 @@ footer{color:var(--mute);font-size:12px;margin:36px 0 10px;line-height:1.6}
   <section class="hero">
     <div>
       <div class="kicker"><span class="dot"></span>Delivering now · Babson, Cambridge, Boston</div>
-      <h1>Anything from CVS. <span class="u">Half off.</span> At your door tonight.</h1>
-      <p class="lead">Party boxes, snacks, energy drinks, skincare, chargers. Pick it here, and a Babson student brings it to your dorm or apartment. Pay when it shows up.</p>
-      <div class="ctas"><a class="cta" href="#boxes">Shop party boxes</a><a class="cta alt" href="#store">Search the whole store</a></div>
-      <div class="trust"><span>⏱ <b>~45 min</b> delivery</span><span>💸 <b>Venmo, Zelle</b> or at the door</span><span>⏳ Ends in <b class="count" id="countB"></b></span></div>
+      <h1>Half off CVS. <span class="u">Pay when it arrives.</span></h1>
+      <p class="lead">Snacks, mixers, energy drinks, party supplies, anything CVS sells, at half the shelf price. A Babson student brings it to your door tonight. You pay only once it's in your hands.</p>
+      <div class="ctas"><a class="cta" href="#boxes">Order now · $0 upfront</a><a class="cta alt" href="#store">Search the store</a></div>
+      <div class="trust"><span>💵 <b>$0 until it arrives</b></span><span>⏱ <b>~45 min</b> delivery</span><span>🎓 <b>Babson students</b>, real number</span><span>⏳ Half off ends in <b class="count" id="countB"></b></span></div>
     </div>
     <div class="heroimg">
-      <img class="photo" src="img/hero.jpg" alt="Party snacks and drinks" onerror="this.style.display='none'">
+      <img class="photo" src="img/hero.jpg" alt="Chips, soda, candy and energy drinks from CVS">
       <div class="stamp">50%<br>OFF</div>
       <div class="badge">Pregame Box · $22<small>CVS price $45 · feeds 6–8</small></div>
     </div>
   </section>
 
   <h2 id="boxes">Party boxes</h2>
-  <p class="sub">Packed and delivered tonight. Delivery included.</p>
+  <p class="sub">Packed and delivered tonight. Delivery included. <b style="color:var(--ink)">Nothing to pay until it's at your door.</b></p>
   <div class="grid" id="boxList"></div>
 
   <h2 id="store">Shop the whole store</h2>
-  <p class="sub">Central Square CVS shelf prices, cut in half. Delivery $5, free on orders of $25+.</p>
+  <p class="sub">Real Central Square CVS shelf prices, cut in half. Delivery $5, free over $25. Pay at the door.</p>
   <div class="chips" id="cats"></div>
   <div class="pgrid" id="prodList"></div>
   <button class="more" id="moreBtn">Show more</button>
@@ -228,9 +232,13 @@ footer{color:var(--mute);font-size:12px;margin:36px 0 10px;line-height:1.6}
   <div class="how">
     <div><b>1. Pick</b><span>Add boxes or items, or ask for anything CVS sells.</span></div>
     <div><b>2. Place your order</b><span>30 seconds. Ryan gets it instantly and texts you an ETA.</span></div>
-    <div><b>3. We drop it off</b><span>At your door, usually within the hour. Pay now or when it arrives.</span></div>
+    <div><b>3. Check it, then pay</b><span>We hand it over at your door, usually within the hour. Pay once it's in your hands: Venmo, Zelle or cash.</span></div>
   </div>
-  <div class="photo2"><img src="img/bags.jpg" alt="Delivery bags lined up" onerror="this.parentNode.style.display='none'"></div>
+  <div class="promise">
+    <div class="pbadge">$0</div>
+    <div><h3>Our deal: you pay nothing until it's in your hands.</h3>
+    <p>No card, no deposit, no account. Look it over at the door, then pay. Anything missing or wrong, you don't pay for it.</p></div>
+  </div>
 
   <div class="lead2">
     <div><h3>Not ordering yet?</h3><p>Drop your number and we'll text you when we're near your building tonight, plus any extra deals.</p></div>
@@ -239,9 +247,9 @@ footer{color:var(--mute);font-size:12px;margin:36px 0 10px;line-height:1.6}
 
   <h2>Questions</h2>
   <div class="faq">
+    <details open><summary>Do I pay up front?</summary><p>No. You pay $0 until your order is at your door. Then pay by Venmo, Zelle or cash. If you'd rather pay ahead to skip the line, you can.</p></details>
     <details><summary>Who are you?</summary><p>Babson students running a 24-hour entrepreneurship challenge, delivering around Babson, Cambridge and Boston tonight. Real people, real number: <a class="phoneLink" href="#"></a>.</p></details>
     <details><summary>How fast is delivery?</summary><p>Usually within an hour. You'll get a text with your ETA as soon as your order comes in, or pick a later time.</p></details>
-    <details><summary>Do I pay up front?</summary><p>Your choice. Pay by Venmo or Zelle right away to jump the line, or pay when it arrives.</p></details>
     <details><summary>How long is half off?</summary><p>Today only. Orders close at 1 AM, with early drop-offs until 8:30 AM.</p></details>
     <details><summary>Anything you won't deliver?</summary><p>No alcohol, tobacco or medicine. Everything else on CVS shelves is fair game.</p></details>
   </div>
@@ -255,7 +263,7 @@ footer{color:var(--mute);font-size:12px;margin:36px 0 10px;line-height:1.6}
 
 <div class="bar" id="bar"><div class="in">
   <div class="sum"><b id="barTotal">$0</b> <small id="barItems"></small></div>
-  <button class="cta" id="openSheet">Checkout →</button>
+  <button class="cta" id="openSheet">Checkout · $0 now</button>
 </div></div>
 
 <div class="scrim" id="scrim"></div>
@@ -276,23 +284,23 @@ footer{color:var(--mute);font-size:12px;margin:36px 0 10px;line-height:1.6}
           <select class="inp" id="when"><option>ASAP</option><option>In 1–2 hours</option><option>9–10 PM</option><option>10–11 PM</option><option>11 PM–midnight</option><option>Midnight–1 AM</option><option>Tomorrow 7–8:30 AM</option></select></div>
         <div><label for="notes">Notes</label><input class="inp" id="notes" placeholder="Optional"></div>
       </div>
-      <label>Pay with</label>
+      <label>When do you want to pay?</label>
       <div class="pay">
-        <label><input type="radio" name="pay" value="Venmo" checked><span>Venmo</span></label>
-        <label><input type="radio" name="pay" value="Zelle"><span>Zelle</span></label>
-        <label><input type="radio" name="pay" value="At the door"><span>At the door</span></label>
+        <label><input type="radio" name="pay" value="At the door" checked><span>At the door</span></label>
+        <label><input type="radio" name="pay" value="Venmo"><span>Venmo now</span></label>
+        <label><input type="radio" name="pay" value="Zelle"><span>Zelle now</span></label>
       </div>
       <div class="err" id="err"></div>
       <div style="height:16px"></div>
-      <button class="cta full" id="place">Place order</button>
-      <div class="note">No account needed. Ryan gets your order instantly.</div>
+      <button class="cta full" id="place">Place order · $0 now</button>
+      <div class="note" id="payNote">You won't pay anything now. Pay when it arrives.</div>
       <div style="height:8px"></div>
       <button class="cta alt full" id="closeSheet">Keep shopping</button>
     </div>
   </div>
   <div id="step2" class="step2">
     <div class="check">✓</div>
-    <h3>Order placed!</h3>
+    <h3 id="doneTitle">Order placed!</h3>
     <p style="margin:0;color:var(--mute)">Order <span class="oid" id="oid"></span>. Ryan will text you an ETA shortly.</p>
     <div id="sendWarn"></div>
     <div id="payArea"></div>
@@ -319,7 +327,7 @@ const BOXES = [
   {id:"whole", name:"The Whole Party", serves:"Feeds 15–20", price:52, was:104, flag:"Best value",
    items:["5 big bags of chips + salsa","8 two-liter mixers","2 candy share bags","100 cups, plates, napkins"], img:["tostitos","coke","sourpatch","lays"]},
   {id:"munchies", name:"Late-Night Munchies", serves:"For 3–4", price:16, was:33,
-   items:["2 bags of chips","Family-size Oreos","Candy share bag","2 two-liter sodas"], img:["oreo","lays","skittles","coke"]},
+   items:["2 bags of chips","Family-size Oreos","Candy share bag","2 two-liter sodas"], img:["oreo","doritos","skittles","sprite"]},
   {id:"energy", name:"All-Nighter Box", serves:"For 2–3", price:16, was:32,
    items:["6 Celsius","2 protein bars","Trail mix","Gum"], img:["celsius","proteinbar","trailmix","gum"]},
   {id:"reset", name:"Sunday Reset Kit", serves:"For 1–2", price:13, was:26,
@@ -350,7 +358,7 @@ function renderBoxes(){
     return `<div class="box ${q?'sel':''}" id="b-${b.id}"><div class="collage">${b.flag?`<span class="flag ${b.y?'y':''}">${b.flag}</span>`:''}${pics}</div>
       <div class="bbody"><p class="bname">${b.name}</p><div class="serves">${b.serves}</div>
       <ul class="bitems">${b.items.map(i=>`<li>${i}</li>`).join("")}</ul>
-      <div class="pricerow"><div><div class="was">CVS price ${money(b.was)}</div><span class="now">${money(b.price)}</span><span class="off">50% OFF</span></div>${qtyCtl("box",b.id,q)}</div></div></div>`; }).join("");
+      <div class="pricerow"><div><div class="was">CVS price ${money(b.was)}</div><span class="now">${money(b.price)}</span><span class="off">SAVE ${money(b.was-b.price)}</span></div>${qtyCtl("box",b.id,q)}</div></div></div>`; }).join("");
 }
 function renderCats(){
   const cats=["All", ...new Set(CAT.map(p=>p.cat))];
@@ -437,6 +445,12 @@ function closeSheet(){ $("#scrim").classList.remove("on"); $("#sheet").classList
 $("#lines").addEventListener("click",e=>{ const x=e.target.closest("[data-rm]"); if(!x) return; cart.custom.splice(+x.dataset.rm,1); update(); if(!totals().n) closeSheet(); else $("#lines").innerHTML=linesHtml(); });
 $("#openSheet").onclick=openSheet; $("#cartBtn").onclick=openSheet; $("#closeSheet").onclick=closeSheet; $("#scrim").onclick=closeSheet; $("#done").onclick=closeSheet;
 
+function setPlaceLabel(){
+  const pay=(document.querySelector('input[name=pay]:checked')||{}).value;
+  $("#place").textContent = pay==="At the door" ? "Place order · $0 now" : "Place order";
+  $("#payNote").textContent = pay==="At the door" ? "You won't pay anything now. Pay when it arrives." : "You'll see the "+pay+" details next. Paying ahead moves you to the front of the line.";
+}
+document.querySelectorAll('input[name=pay]').forEach(r=>r.addEventListener("change", setPlaceLabel));
 const withTimeout=(p,ms)=>Promise.race([p,new Promise((_,rej)=>setTimeout(()=>rej(new Error("timeout")),ms))]);
 
 $("#place").onclick=async ()=>{
@@ -467,7 +481,7 @@ $("#place").onclick=async ()=>{
   const res=await Promise.allSettled([retry(sendPush), retry(sendMail)]);
   const ok=res.some(r=>r.status==="fulfilled");
   try{ const log=JSON.parse(localStorage.getItem("pb_orders")||"[]"); log.push({id,text,ok,at:Date.now()}); localStorage.setItem("pb_orders",JSON.stringify(log)); }catch(e){}
-  btn.disabled=false; btn.textContent="Place order";
+  btn.disabled=false; setPlaceLabel();
   const sms="sms:"+PHONE+"?&body="+encodeURIComponent(text);
   $("#smsBtn").href=sms; $("#oid").textContent=id;
   $("#sendWarn").innerHTML = ok ? "" : `<div class="warn"><b>One more step:</b> your connection blocked the order from sending. Tap below to text it to Ryan, or call ${PHONE_DISPLAY}.</div><a class="cta full" href="${sms}">Text my order to Ryan</a>`;
@@ -476,7 +490,8 @@ $("#place").onclick=async ()=>{
   let pa="";
   if(pay==="Venmo") pa=`<div class="big">${money(t.total)}</div><a class="cta venmo full" href="https://venmo.com/${VENMO}?txn=pay&amount=${t.total.toFixed(2)}&note=${note}" target="_blank" rel="noopener">Pay @${VENMO} on Venmo</a><div class="note">Paying now moves you to the front of the line.${t.unknown?" Requests without a price get a Venmo request after we buy them.":""}</div>`;
   else if(pay==="Zelle") pa=`<div class="big">${money(t.total)}</div><div class="note">Zelle this email with <b>${id}</b> in the memo:</div><div class="zelle"><code>${ZELLE}</code><button class="copy" id="cpz">Copy</button></div>`;
-  else pa=`<div class="big">${money(t.total)}${t.unknown?" +":""}</div><div class="note">Pay when it arrives: Venmo @${VENMO}, Zelle, or cash.</div>`;
+  else pa=`<div class="big">$0 now</div><div class="note">You'll pay ${money(t.total)}${t.unknown?" + requests":""} when it's at your door: Venmo @${VENMO}, Zelle, or cash.</div>`;
+  $("#doneTitle").textContent = pay==="At the door" ? "Order placed! Nothing to pay yet." : "Order placed!";
   $("#payArea").innerHTML=pa;
   const cp=$("#cpz"); if(cp) cp.onclick=()=>{ navigator.clipboard&&navigator.clipboard.writeText(ZELLE).then(()=>toast("Copied")); };
   $("#step1").style.display="none"; $("#step2").style.display="block";
@@ -494,7 +509,7 @@ $("#leadForm").onsubmit=async e=>{
 async function load(){
   try{ IMG=await (await fetch("data/images.json",{cache:"no-store"})).json(); }catch(e){}
   let CI={}; try{ CI=await (await fetch("data/catimg.json",{cache:"no-store"})).json(); }catch(e){}
-  try{ CAT=(await (await fetch("data/catalog.json",{cache:"no-store"})).json()).map((p,i)=>({...p, id:p.id||("p"+i), img:p.img||CI[p.name]||null})); }catch(e){ CAT=[]; }
+  try{ CAT=(await (await fetch("data/catalog.json",{cache:"no-store"})).json()).map((p,i)=>({...p, id:p.id||("p"+i), img:p.img||CI[p.name+"|"+(p.size||"")]||null})); }catch(e){ CAT=[]; }
   CAT.sort((a,b)=>(b.img?1:0)-(a.img?1:0));
   try{ const c=JSON.parse(localStorage.getItem("pb_cart")||"null"); if(c){ Object.assign(cart.boxes,c.boxes||{}); for(const k in (c.items||{})) if(CAT.some(p=>p.id===k)) cart.items[k]=c.items[k]; cart.custom=c.custom||[]; } }catch(e){}
   const pre=new URLSearchParams(location.search).get("box");
