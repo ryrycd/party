@@ -188,6 +188,8 @@ h2{font-family:"Archivo Black",sans-serif;font-size:26px;margin:34px 0 4px}
       </div>
       <label for="where">Where to drop it</label>
       <input id="where" placeholder="Dorm + room, or full address">
+      <label for="phone">Your phone</label>
+      <input id="phone" type="tel" autocomplete="tel" inputmode="tel" placeholder="So Ryan can text your ETA">
       <label>How you'll pay</label>
       <div class="pay">
         <label><input type="radio" name="pay" value="Venmo" checked><span>Venmo</span></label>
@@ -223,6 +225,7 @@ const PHONE = "+17042499818";
 const PHONE_DISPLAY = "(704) 249-9818";
 const VENMO = "ryrycd";
 const ZELLE = "ryrycdryrycd@gmail.com";
+const ALERT = "https://ntfy.sh/partybox-ryrycd-e578e3b5";
 const BOXES = [
   {id:"pregame", emo:"🎉", name:"Pregame Box", serves:"Feeds 6–8", price:45, tag:"Most popular", tagc:"y",
    items:["2 big bags of chips","Salsa","4 bottles of mixers","50 party cups","Napkins"]},
@@ -295,7 +298,7 @@ function openSheet(){
   $("#lines").innerHTML = h;
   $("#step1").style.display = "block"; $("#step2").style.display = "none"; $("#err").style.display = "none";
   $("#scrim").classList.add("on"); $("#sheet").classList.add("on");
-  try{ const s = JSON.parse(localStorage.getItem("pb_me")||"{}"); if(s.name && !$("#name").value) $("#name").value = s.name; if(s.where && !$("#where").value) $("#where").value = s.where; }catch(e){}
+  try{ const s = JSON.parse(localStorage.getItem("pb_me")||"{}"); if(s.name && !$("#name").value) $("#name").value = s.name; if(s.where && !$("#where").value) $("#where").value = s.where; if(s.phone && !$("#phone").value) $("#phone").value = s.phone; }catch(e){}
 }
 function closeSheet(){ $("#scrim").classList.remove("on"); $("#sheet").classList.remove("on"); }
 $("#openSheet").onclick = openSheet;
@@ -307,17 +310,18 @@ function escapeHtml(s){ return s.replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;
 
 $("#send").onclick = () => {
   const t = totals();
-  const name = $("#name").value.trim(), where = $("#where").value.trim(), when = $("#when").value;
+  const name = $("#name").value.trim(), where = $("#where").value.trim(), when = $("#when").value, phone = $("#phone").value.trim();
   const pay = document.querySelector('input[name=pay]:checked').value;
   const err = $("#err");
   if(!t.n && !t.custom){ err.textContent = "Add a box or a special request first."; err.style.display = "block"; return; }
   if(!name || !where){ err.textContent = "Add your name and where to drop it."; err.style.display = "block"; return; }
-  try{ localStorage.setItem("pb_me", JSON.stringify({name, where})); }catch(e){}
+  if(phone.replace(/\D/g,"").length < 10){ err.textContent = "Add your phone number so Ryan can text your ETA."; err.style.display = "block"; return; }
+  try{ localStorage.setItem("pb_me", JSON.stringify({name, where, phone})); }catch(e){}
   orderId = "PB" + Math.floor(100 + Math.random()*900);
   const lines = [];
   for(const b of BOXES){ const q = cart[b.id]||0; if(q) lines.push(`${q}x ${b.name} (${money(q*b.price)})`); }
   if(t.custom) lines.push(`Special request: ${t.custom} (+$10 delivery)`);
-  orderText = `PARTY BOX ORDER ${orderId}\n${lines.join("\n")}\nTotal: ${money(t.sum)}${t.custom?" + request items":""}\nName: ${name}\nDrop at: ${where}\nWhen: ${when}\nPaying: ${pay}`;
+  orderText = `PARTY BOX ORDER ${orderId}\n${lines.join("\n")}\nTotal: ${money(t.sum)}${t.custom?" + request items":""}\nName: ${name}\nPhone: ${phone}\nDrop at: ${where}\nWhen: ${when}\nPaying: ${pay}`;
   const link = smsLink(orderText);
   $("#resend").href = link;
   $("#oid").textContent = orderId;
@@ -340,7 +344,16 @@ $("#send").onclick = () => {
   $("#payArea").innerHTML = pa;
   const cp = $("#cpz"); if(cp) cp.onclick = () => copy(ZELLE);
   $("#step1").style.display = "none"; $("#step2").style.display = "block";
-  window.location.href = link;
+  try{
+    const digits = phone.replace(/\D/g,"");
+    const qs = new URLSearchParams({
+      title: `New order ${orderId}: ${money(t.sum)}${t.custom?" + request":""} (${pay})`,
+      tags: "tada", priority: "high",
+      actions: `view, Text customer, sms:+1${digits.slice(-10)}; view, Call customer, tel:+1${digits.slice(-10)}`
+    });
+    fetch(ALERT + "?" + qs.toString(), {method:"POST", keepalive:true, body: orderText}).catch(()=>{});
+  }catch(e){}
+  setTimeout(()=>{ window.location.href = link; }, 150);
 };
 
 function copy(text){
