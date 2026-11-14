@@ -1,1039 +1,1252 @@
 [
- {
-  "name": "Fritos Chili Cheese Flavored Corn Chips",
-  "size": "9.25 OZ",
-  "price": 5.69,
-  "cat": "Snacks"
- },
- {
-  "name": "Barnana Flamin' Ghost Plantain Chips",
-  "size": "4 OZ",
-  "price": 4.99,
-  "cat": "Snacks"
- },
- {
-  "name": "Boulder Canyon 6 Classic Sea Salt Thin & Crispy Chips",
-  "size": "6 OZ",
-  "price": 4.79,
-  "cat": "Snacks"
- },
- {
-  "name": "Siete Taco Seasoning White Yellow Corn Tortilla Chips",
-  "size": "7.5 OZ",
-  "price": 5.99,
-  "cat": "Snacks"
- },
- {
-  "name": "Barnana Organic Pink Sea Salt Plantain Chips",
-  "size": "5 OZ",
-  "price": 4.99,
-  "cat": "Snacks"
- },
- {
-  "name": "Lay's Potato Chips Classic",
-  "size": "8 oz",
-  "price": 4.59,
-  "cat": "Snacks",
-  "deal": "Buy 1, Get 1 for $1.00"
- },
- {
-  "name": "Doritos Nacho Cheese Flavored Tortilla Chips",
-  "size": "9.25 oz",
-  "price": 5.79,
-  "cat": "Snacks"
- },
- {
-  "name": "Lay's Potato Chips Barbecue Flavored",
-  "size": "7.75 oz",
-  "price": 4.59,
-  "cat": "Snacks",
-  "deal": "Buy 1, Get 1 for $1.00"
- },
- {
-  "name": "Lay's Potato Chips Sour Cream & Onion Flavored",
-  "size": "7.75 oz",
-  "price": 4.59,
-  "cat": "Snacks",
-  "deal": "Buy 1, Get 1 for $1.00"
- },
- {
-  "name": "Takis Fuego Rolls Hot Chili Pepper & Lime Flavored Spicy Tortilla Chips",
-  "size": "9.9 oz",
-  "price": 5.79,
-  "cat": "Snacks"
- },
- {
-  "name": "Doritos Cool Ranch Flavored Tortilla Chips",
-  "size": "9.25 oz",
-  "price": 5.79,
-  "cat": "Snacks"
- },
- {
-  "name": "Lay's Wavy Potato Chips Original",
-  "size": "7.75 oz",
-  "price": 4.59,
-  "cat": "Snacks",
-  "deal": "Buy 1, Get 1 for $1.00"
- },
- {
-  "name": "Ruffles Potato Chips Cheddar & Sour Cream Flavored",
-  "size": "2.5 oz",
-  "price": 2.79,
-  "cat": "Snacks"
- },
- {
-  "name": "Frito-Lay Tostitos Salsa Con Queso Medium",
-  "size": "",
-  "price": 5.49,
-  "cat": "Snacks"
- },
- {
-  "name": "Tostitos, Medium Dip Chunky Salsa",
-  "size": "15.5 Oz",
-  "price": 4.29,
-  "cat": "Snacks"
- },
- {
-  "name": "Tostitos, Chunky Salsa Mild",
-  "size": "15.5 Oz",
-  "price": 4.29,
-  "cat": "Snacks"
- },
- {
-  "name": "Herdez Salsa Verde",
-  "size": "8.5 OZ",
-  "price": 2.29,
-  "cat": "Snacks"
- },
- {
-  "name": "Moose Munch  Holiday Gable Box Dark Chocolate",
-  "size": "4.5 OZ",
-  "price": 6.99,
-  "cat": "Snacks"
- },
- {
-  "name": "Khloud White Cheddar Protein Popcorn",
-  "size": "4 OZ",
-  "price": 5.99,
-  "cat": "Snacks"
- },
- {
-  "name": "Gift Pop Rudolph Licensed Assortment Icon Popcorn Tin",
-  "size": "21 OZ",
-  "price": 10.99,
-  "cat": "Snacks"
- },
- {
-  "name": "Act II Butter Lovers Popcorn",
-  "size": "6 CT, 16.5 OZ",
-  "price": 4.99,
-  "cat": "Snacks"
- },
- {
-  "name": "PopCorners Spicy Queso",
-  "size": "12 CT, 5 OZ",
-  "price": 4.49,
-  "cat": "Snacks"
- },
- {
-  "name": "Khloud Sweet and Salty Kettle Corn Protein Popcorn",
-  "size": "5 OZ",
-  "price": 5.99,
-  "cat": "Snacks"
- },
- {
-  "name": "Lesser Evil Organic Popcorn Homers Secret Blend",
-  "size": "4.6 OZ",
-  "price": 4.69,
-  "cat": "Snacks"
- },
- {
-  "name": "Signature Brands Elf on the Shelf Snow Much Fun Popcorn Tin",
-  "size": "21 OZ",
-  "price": 10.99,
-  "cat": "Snacks"
- },
- {
-  "name": "Pop Corners Sea Salt",
-  "size": "12 CT, 5 OZ",
-  "price": 4.49,
-  "cat": "Snacks"
- },
- {
-  "name": "PopCorners White Cheddar",
-  "size": "12 CT, 5 OZ",
-  "price": 4.49,
-  "cat": "Snacks"
- },
- {
-  "name": "Well Market Olive Oil and Sea Salt Popcorn",
-  "size": "5 OZ",
-  "price": 3.39,
-  "cat": "Snacks",
-  "deal": "On sale $2.99"
- },
- {
-  "name": "Well Market White Cheddar Popcorn",
-  "size": "5 OZ",
-  "price": 3.39,
-  "cat": "Snacks",
-  "deal": "On sale $2.99"
- },
- {
-  "name": "Well Market Sea Salt Popcorn",
-  "size": "5 OZ",
-  "price": 3.19,
-  "cat": "Snacks",
-  "deal": "On sale $2.99"
- },
- {
-  "name": "Lambertz European Cookie Tin",
-  "size": "7.05 OZ",
-  "price": 6.99,
-  "cat": "Snacks"
- },
- {
-  "name": "Well Market Hazelnut Milk Choc Covered Mini Butter Biscuits",
-  "size": "3.53 OZ",
-  "price": 5.99,
-  "cat": "Snacks"
- },
- {
-  "name": "Biscoff Sandwich Vanilla Duo",
-  "size": "7.76 OZ",
-  "price": 4.99,
-  "cat": "Snacks"
- },
- {
-  "name": "Walkers Shortbread Festive Shapes",
-  "size": "12.3 OZ",
-  "price": 9.99,
-  "cat": "Snacks"
- },
- {
-  "name": "Tate's Bake Shop Chocolate Toffee Cookies, Limited Edition Holiday Cookies",
-  "size": "6.5 OZ",
-  "price": 6.99,
-  "cat": "Snacks"
- },
- {
-  "name": "Lambertz Premium Assorted Cookies, Best Selection Tin",
-  "size": "18.34 OZ",
-  "price": 16.99,
-  "cat": "Snacks"
- },
- {
-  "name": "Mallomars Pure Chocolate Cookies",
-  "size": "8.2 OZ",
-  "price": 5.69,
-  "cat": "Snacks"
- },
- {
-  "name": "Original Gourmet Holiday Shortbread Cookies with 300-Piece Puzzle Tin",
-  "size": "7 OZ",
-  "price": 14.99,
-  "cat": "Snacks"
- },
- {
-  "name": "Well Market Waffle Cones filled with Milk Chocolate",
-  "size": "4.23 OZ",
-  "price": 5.99,
-  "cat": "Snacks"
- },
- {
-  "name": "Stauffer's Holiday Shortbread Cookies",
-  "size": "12 OZ",
-  "price": 3.99,
-  "cat": "Snacks"
- },
- {
-  "name": "Cuetara Recoco Coconut Cookies",
-  "size": "3.05 OZ",
-  "price": 3.49,
-  "cat": "Snacks"
- },
- {
-  "name": "Pepperidge Farm Gingerman Old Fashioned Cookies",
-  "size": "5 OZ",
-  "price": 5.89,
-  "cat": "Snacks"
- },
- {
-  "name": "Serafina Butter Cookies Tin",
-  "size": "4 OZ",
-  "price": 1.99,
-  "cat": "Snacks"
- },
- {
-  "name": "Snickers Original Chocolate Candy Bars, Fun Size",
-  "size": "10.59 OZ",
-  "price": 7.29,
-  "cat": "Snacks"
- },
- {
-  "name": "M&M'S Fun Size Milk Chocolate, Bulk Bag",
-  "size": "10.53 OZ",
-  "price": 7.29,
-  "cat": "Snacks"
- },
- {
-  "name": "Kit Kat Milk Chocolate Wafer Snack Size, Candy Bag",
-  "size": "10.78 OZ",
-  "price": 7.59,
-  "cat": "Snacks",
-  "deal": "Buy 1, Get 1 50% Off"
- },
- {
-  "name": "Dove Promises Milk Chocolate Candy Bag",
-  "size": "7.61 OZ",
-  "price": 6.79,
-  "cat": "Snacks",
-  "deal": "Buy 1, Get 1 50% Off"
- },
- {
-  "name": "Reese's Snack Size Peanut Butter Cups, Milk Chocolate",
-  "size": "10.5 OZ",
-  "price": 7.59,
-  "cat": "Snacks",
-  "deal": "Buy 1, Get 1 50% Off"
- },
- {
-  "name": "Hershey's Kisses Candy Cane Flavored, Christmas Candy Bag",
-  "size": "9 OZ",
-  "price": 8.49,
-  "cat": "Snacks",
-  "deal": "Buy 1, Get 1 for $1.00"
- },
- {
-  "name": "Hershey's Kisses Candy Cane Flavored, Christmas Candy Bulk Bag",
-  "size": "31.67 OZ",
-  "price": 22.99,
-  "cat": "Snacks",
-  "deal": "Buy 1, Get 1 50% Off"
- },
- {
-  "name": "M&M'S Peanut Butter Mega Chocolate Candies",
-  "size": "2.83 OZ",
-  "price": 3.19,
-  "cat": "Snacks",
-  "deal": "Buy 1, Get 1 50% Off"
- },
- {
-  "name": "Spangler Candy Canes Peppermint",
-  "size": "1 OZ",
-  "price": 0.99,
-  "cat": "Snacks",
-  "deal": "Buy 1, Get 1 50% Off"
- },
- {
-  "name": "Skittles Original Christmas Chewy Candy Cane Gift",
-  "size": "2.6 OZ",
-  "price": 3.99,
-  "cat": "Snacks",
-  "deal": "Buy 1, Get 1 50% Off"
- },
- {
-  "name": "Brach's Peppermint Candy Canes",
-  "size": "12 CT, 5.3 OZ",
-  "price": 3.99,
-  "cat": "Snacks",
-  "deal": "Buy 1, Get 1 50% Off"
- },
- {
-  "name": "M&M'S Peanut Milk Chocolate Candy, Share Size Bag",
-  "size": "3.27 OZ",
-  "price": 3.19,
-  "cat": "Snacks",
-  "deal": "Buy 1, Get 1 50% Off"
- },
- {
-  "name": "Hershey's Kisses Milk Chocolate, Christmas Candy Plastic Cane",
-  "size": "2.24 OZ",
-  "price": 4.49,
-  "cat": "Snacks",
-  "deal": "Buy 1, Get 1 50% Off"
- },
- {
-  "name": "Lindt Lindor Holiday Assorted Peppermint Chocolate Candy Truffles",
-  "size": "15.2 OZ",
-  "price": 20.99,
-  "cat": "Snacks",
-  "deal": "Buy 1, Get 1 50% Off"
- },
- {
-  "name": "Lindt Holiday Chocolate Teddy Bear Advent Calendar",
-  "size": "4.5 OZ",
-  "price": 17.49,
-  "cat": "Snacks",
-  "deal": "Buy 1, Get 1 50% Off"
- },
- {
-  "name": "Reese's Milk Chocolate Peanut Butter Snack Size Trees, Christmas Candy Bag",
-  "size": "9.6 OZ",
-  "price": 8.49,
-  "cat": "Snacks",
-  "deal": "Buy 1, Get 1 for $1.00"
- },
- {
-  "name": "Russell Stover Sugar Free Toffee Squares",
-  "size": "2 OZ",
-  "price": 3.99,
-  "cat": "Snacks"
- },
- {
-  "name": "Ghirardelli Chocolate Snowmen Assortment",
-  "size": "10.2 OZ",
-  "price": 20.99,
-  "cat": "Snacks",
-  "deal": "Buy 1, Get 1 50% Off"
- },
- {
-  "name": "Reese's Milk Chocolate Peanut Butter Assorted Shapes, Christmas Candy Bag",
-  "size": "9.6 OZ",
-  "price": 8.49,
-  "cat": "Snacks",
-  "deal": "Buy 1, Get 1 for $1.00"
- },
- {
-  "name": "Lindt Holiday Mug with Chocolate Truffles",
-  "size": "1.3 OZ",
-  "price": 13.99,
-  "cat": "Snacks"
- },
- {
-  "name": "Russell Stover Sugar Free, Pecan Delight",
-  "size": "2.4 OZ",
-  "price": 3.99,
-  "cat": "Snacks"
- },
- {
-  "name": "Ferrero Rocher",
-  "size": "5 CT, 2.2 OZ",
-  "price": 5.99,
-  "cat": "Snacks",
-  "deal": "Buy 1, Get 1 50% Off"
- },
- {
-  "name": "Dove Promises Milk Chocolate Christmas Candy Gifts",
-  "size": "8.87 OZ",
-  "price": 7.99,
-  "cat": "Snacks",
-  "deal": "Buy 1, Get 1 for $1.00"
- },
- {
-  "name": "Lindt Lindor Holiday Milk Chocolate Candy Truffles Favor Gift",
-  "size": "2.1 OZ",
-  "price": 5.49,
-  "cat": "Snacks",
-  "deal": "Buy 1, Get 1 50% Off"
- },
- {
-  "name": "Russell Stover French Mints Box",
-  "size": "12 CT, 4 OZ",
-  "price": 7.99,
-  "cat": "Snacks",
-  "deal": "Buy 1, Get 1 50% Off"
- },
- {
-  "name": "Lindt Lindor Assorted Chocolate Candy Truffles with Smooth, Melting Truffle Center",
-  "size": "8.5 OZ",
-  "price": 14.99,
-  "cat": "Snacks",
-  "deal": "Buy 1, Get 1 50% Off"
- },
- {
-  "name": "Total Home Party Cups",
-  "size": "9 oz, 50 ct",
-  "price": 6.39,
-  "cat": "Party & Home",
-  "deal": "$5 ExtraBucks Rewards for spending $15 on Total Home Cups, Plates or Cutlery"
- },
- {
-  "name": "Total Home Party Cups",
-  "size": "18 oz, 100 ct",
-  "price": 16.69,
-  "cat": "Party & Home",
-  "deal": "$5 ExtraBucks Rewards for spending $15 on Total Home Cups, Plates or Cutlery"
- },
- {
-  "name": "Total Home Party Cups",
-  "size": "16 oz, 20 ct",
-  "price": 6.29,
-  "cat": "Party & Home",
-  "deal": "$5 ExtraBucks Rewards for spending $15 on Total Home Cups, Plates or Cutlery"
- },
- {
-  "name": "Ball Recyclable Aluminum Party Cups",
-  "size": "20 oz, 10 ct",
-  "price": 6.49,
-  "cat": "Party & Home"
- },
- {
-  "name": "Plastifar Disposable Plastic Cups",
-  "size": "0.75 oz, 250 ct",
-  "price": 2.99,
-  "cat": "Party & Home"
- },
- {
-  "name": "Ball Recyclable Aluminum Cups",
-  "size": "16 oz, 24 ct",
-  "price": 13.49,
-  "cat": "Party & Home"
- },
- {
-  "name": "Total Home Decorated Paper Plates",
-  "size": "8.75 in, 48 ct",
-  "price": 8.49,
-  "cat": "Party & Home",
-  "deal": "$5 ExtraBucks Rewards for spending $15 on Total Home Cups, Plates or Cutlery"
- },
- {
-  "name": "Total Home Decorated Paper Plates",
-  "size": "40 ct",
-  "price": 4.49,
-  "cat": "Party & Home",
-  "deal": "$5 ExtraBucks Rewards for spending $15 on Total Home Cups, Plates or Cutlery"
- },
- {
-  "name": "Total Home Microwavable Plastic Dinner Plates",
-  "size": "14 ct",
-  "price": 6.89,
-  "cat": "Party & Home",
-  "deal": "$5 ExtraBucks Rewards for spending $15 on Total Home Cups, Plates or Cutlery"
- },
- {
-  "name": "Glad Paper Plates, Pink Flower",
-  "size": "50 ct",
-  "price": 6.99,
-  "cat": "Party & Home"
- },
- {
-  "name": "Glad Paper Plates, Blue Flower",
-  "size": "50 ct",
-  "price": 8.99,
-  "cat": "Party & Home"
- },
- {
-  "name": "Time To Party Paper Dinner Plates, Floral",
-  "size": "8 ct",
-  "price": 4.99,
-  "cat": "Party & Home"
- },
- {
-  "name": "Time To Party Paper Dinner Plates, Scalloped",
-  "size": "8 ct",
-  "price": 4.99,
-  "cat": "Party & Home"
- },
- {
-  "name": "Time To Party Paper Dinner Plates, Black Stripe",
-  "size": "8 ct",
-  "price": 4.99,
-  "cat": "Party & Home"
- },
- {
-  "name": "Glad Soak-Proof Paper Plates, Victorian Print",
-  "size": "50 ct",
-  "price": 8.99,
-  "cat": "Party & Home"
- },
- {
-  "name": "Glad Premium Cutlery Assortment",
-  "size": "240 ct",
-  "price": 14.79,
-  "cat": "Party & Home"
- },
- {
-  "name": "Joseph Joseph Duo Straight Peeler",
-  "size": "",
-  "price": 10.49,
-  "cat": "Party & Home"
- },
- {
-  "name": "Bounty Full Sheet Paper Towels",
-  "size": "6 Double Rolls",
-  "price": 21.99,
-  "cat": "Party & Home",
-  "deal": "On sale $15.99"
- },
- {
-  "name": "Bounty Select-A-Size Paper Towels",
-  "size": "4 Double Rolls",
-  "price": 15.49,
-  "cat": "Party & Home",
-  "deal": "On sale $10.99"
- },
- {
-  "name": "Total Home Size Select Paper Towels",
-  "size": "6 Big Rolls",
-  "price": 10.79,
-  "cat": "Party & Home",
-  "deal": "On sale $8.99"
- },
- {
-  "name": "Scott Choose-A-Sheet Paper Towels",
-  "size": "8 Double Rolls",
-  "price": 16.69,
-  "cat": "Party & Home"
- },
- {
-  "name": "Bounty Select-A-Size Paper Towels",
-  "size": "6 Triple Rolls",
-  "price": 26.49,
-  "cat": "Party & Home"
- },
- {
-  "name": "Bounty Select-A-Size Paper Towels",
-  "size": "8 Double Rolls",
-  "price": 24.49,
-  "cat": "Party & Home"
- },
- {
-  "name": "Brawny 3-Ply Tear-A-Square Paper Towels",
-  "size": "6 Double Rolls",
-  "price": 19.99,
-  "cat": "Party & Home",
-  "deal": "On sale $12.99"
- },
- {
-  "name": "Viva Signature Cloth Paper Towels",
-  "size": "2 Quad Rolls",
-  "price": 13.39,
-  "cat": "Party & Home",
-  "deal": "On sale $8.99"
- },
- {
-  "name": "Bounty Essentials Select-A-Size Paper Towels",
-  "size": "6 Double Rolls",
-  "price": 13.49,
-  "cat": "Party & Home",
-  "deal": "On sale $10.99"
- },
- {
-  "name": "Viva Signature Cloth Paper Towels",
-  "size": "6 Double Rolls",
-  "price": 19.69,
-  "cat": "Party & Home"
- },
- {
-  "name": "Total Home Premium Paper Towels",
-  "size": "2 Mega Rolls",
-  "price": 5.49,
-  "cat": "Party & Home"
- },
- {
-  "name": "Total Home Size Selection Paper Towels",
-  "size": "6 Mega Rolls",
-  "price": 13.79,
-  "cat": "Party & Home"
- },
- {
-  "name": "Bounty Prints Select-A-Size Paper Towels",
-  "size": "2 Triple Rolls",
-  "price": 11.79,
-  "cat": "Party & Home"
- },
- {
-  "name": "Scott 1000 Toilet Paper",
-  "size": "12 Rolls",
-  "price": 14.49,
-  "cat": "Party & Home"
- },
- {
-  "name": "Charmin Ultra Soft Toilet Paper",
-  "size": "12 Mega Rolls",
-  "price": 21.99,
-  "cat": "Party & Home",
-  "deal": "On sale $15.99"
- },
- {
-  "name": "Charmin Ultra Soft Toilet Paper",
-  "size": "6 Mega Rolls",
-  "price": 12.49,
-  "cat": "Party & Home",
-  "deal": "On sale $9.99"
- },
- {
-  "name": "Charmin Ultra Strong Toilet Paper",
-  "size": "12 Mega Rolls",
-  "price": 21.99,
-  "cat": "Party & Home",
-  "deal": "On sale $15.99"
- },
- {
-  "name": "–",
-  "size": "",
-  "price": 7.49,
-  "cat": "Party & Home"
- },
- {
-  "name": "Cottonelle Ultra Clean Toilet Paper",
-  "size": "9 Mega Rolls",
-  "price": 8.99,
-  "cat": "Party & Home"
- },
- {
-  "name": "Charmin Essentials Soft Toilet Paper",
-  "size": "6 Mega Rolls",
-  "price": 7.79,
-  "cat": "Party & Home"
- },
- {
-  "name": "Scott Comfort Plus Toilet Paper",
-  "size": "18 Triple Rolls",
-  "price": 12.99,
-  "cat": "Party & Home"
- },
- {
-  "name": "Total Home Just The Basics Toilet Paper",
-  "size": "12 ct",
-  "price": 12.49,
-  "cat": "Party & Home",
-  "deal": "On sale $7.99"
- },
- {
-  "name": "Cottonelle Ultra Soft Toilet Paper",
-  "size": "9 Mega Rolls",
-  "price": 8.99,
-  "cat": "Party & Home"
- },
- {
-  "name": "Total Home Soft & Strong Toilet Paper",
-  "size": "9 Mega Rolls",
-  "price": 10.89,
-  "cat": "Party & Home",
-  "deal": "On sale $8.99"
- },
- {
-  "name": "Cottonelle Fresh Care Flushable Wet Wipes, 2 pk (84 total wipes)",
-  "size": "",
-  "price": 5.79,
-  "cat": "Party & Home",
-  "deal": "On sale $4.99"
- },
- {
-  "name": "Cottonelle GentlePlus Flushable Wet Wipes, 2 pk (84 total wipes)",
-  "size": "",
-  "price": 5.79,
-  "cat": "Party & Home",
-  "deal": "On sale $4.99"
- },
- {
-  "name": "Universal Candle Co. 4-Wick Striped Candle, Christmas Tree Farm",
-  "size": "14 oz",
-  "price": 9.99,
-  "cat": "Party & Home"
- },
- {
-  "name": "Universal Candle Co. Christmas Tree Candle, Christmas Tree Farm",
-  "size": "9.5 oz",
-  "price": 9.99,
-  "cat": "Party & Home"
- },
- {
-  "name": "Universal Candle Co. Reindeer Candle, Vanilla Sugar Cupcake",
-  "size": "9.5 oz",
-  "price": 9.99,
-  "cat": "Party & Home"
- },
- {
-  "name": "Tuscany Candle 2-Wick Candle, Very Merry Mistletoe",
-  "size": "18 oz",
-  "price": 14.99,
-  "cat": "Party & Home"
- },
- {
-  "name": "Joyward Etched Glass Deer Tealight Holder, Brown",
-  "size": "4.9 in",
-  "price": 4.99,
-  "cat": "Party & Home"
- },
- {
-  "name": "Tuscany Candle 3-Wick Candle, Velvet Wreath",
-  "size": "15 oz",
-  "price": 14.99,
-  "cat": "Party & Home"
- },
- {
-  "name": "Decorware Vintage Tin 2-Wick Candle, Woodland Moss",
-  "size": "12.4 oz",
-  "price": 7.99,
-  "cat": "Party & Home"
- },
- {
-  "name": "Tuscany Candle 3-Wick Candle, Winter Forest",
-  "size": "18 oz",
-  "price": 15.99,
-  "cat": "Party & Home"
- },
- {
-  "name": "A&A Light Green Glass Candle, Mountain Pine",
-  "size": "13 oz",
-  "price": 11.99,
-  "cat": "Party & Home"
- },
- {
-  "name": "Decorware Wreath Candle, Cedarwood & Currant",
-  "size": "8.2 oz",
-  "price": 7.99,
-  "cat": "Party & Home"
- },
- {
-  "name": "Joyward Pinecone Candle Holder Set",
-  "size": "3.5 in",
-  "price": 14.99,
-  "cat": "Party & Home"
- },
- {
-  "name": "Joyward LED Water Candle",
-  "size": "8 in",
-  "price": 24.99,
-  "cat": "Party & Home"
- },
- {
-  "name": "Decorware Tis the Season Wood Wick Candle, Winter Snow",
-  "size": "12 oz",
-  "price": 9.99,
-  "cat": "Party & Home"
- },
- {
-  "name": "Gillette Venus ComfortGlide Dispoable Razors",
-  "size": "2 CT",
-  "price": 8.69,
-  "cat": "Personal Care"
- },
- {
-  "name": "Skintimate Sensitive Skin 4-Blade Disposable Razors",
-  "size": "4 CT",
-  "price": 8.59,
-  "cat": "Personal Care"
- },
- {
-  "name": "Gillette Venus Pubic Hair & Skin Disposable Razors",
-  "size": "4 CT",
-  "price": 8.99,
-  "cat": "Personal Care"
- },
- {
-  "name": "Gillette Venus Sensitive 3-Blade Disposable Razors",
-  "size": "4 CT",
-  "price": 7.79,
-  "cat": "Personal Care"
- },
- {
-  "name": "Skintimate Raspberry Rain 4-Blade Disposable Razors",
-  "size": "4 CT",
-  "price": 8.59,
-  "cat": "Personal Care"
- },
- {
-  "name": "Gillette Sensor3 3-Blade Disposable Razors",
-  "size": "4 CT",
-  "price": 7.99,
-  "cat": "Personal Care"
- },
- {
-  "name": "Schick Xtreme Sensitive 3-Blade Disposable Razors",
-  "size": "4 CT",
-  "price": 8.99,
-  "cat": "Personal Care"
- },
- {
-  "name": "CVS Beauty Women's 2 Blade Gentle Touch Disposable Razors",
-  "size": "10 CT",
-  "price": 3.19,
-  "cat": "Personal Care",
-  "deal": "Buy 1, Get 1 50% Off"
- },
- {
-  "name": "Gillette Mach3 Sensitive 3-Blade Disposable Razors",
-  "size": "3 CT",
-  "price": 19.99,
-  "cat": "Personal Care"
- },
- {
-  "name": "Schick Xtreme Sensitive 3-Blade Disposable Razors",
-  "size": "8 CT",
-  "price": 12.99,
-  "cat": "Personal Care"
- },
- {
-  "name": "Schick Hydro Silk Sensitive 5-Blade Disposable Razors",
-  "size": "2 PK",
-  "price": 9.29,
-  "cat": "Personal Care"
- },
- {
-  "name": "Schick Hydro Silk Touch-Up Multipurpose Razors",
-  "size": "3 CT",
-  "price": 6.99,
-  "cat": "Personal Care"
- },
- {
-  "name": "Schick Xtreme Sensitive 2-Blade Disposable Razors",
-  "size": "12 CT",
-  "price": 8.99,
-  "cat": "Personal Care"
- },
- {
-  "name": "Icelandic Glacial Water",
-  "size": "750 ML",
-  "price": 3.89,
-  "cat": "Drinks"
- },
- {
-  "name": "Gold Emblem Refillable Alkaline Water",
-  "size": "25 OZ",
-  "price": 2.99,
-  "cat": "Drinks"
- },
- {
-  "name": "Zephyrhills Brand 100% Natural Spring Water",
-  "size": "6 ct, 16.9 oz",
-  "price": 3.49,
-  "cat": "Drinks"
- },
- {
-  "name": "Icelandic Glacial Water",
-  "size": "6 CT, 330 ML",
-  "price": 6.39,
-  "cat": "Drinks"
- },
- {
-  "name": "Icelandic Glacial Water",
-  "size": "6 CT,  1L",
-  "price": 16.79,
-  "cat": "Drinks"
- },
- {
-  "name": "Smartwater Vapor Distilled Premium Water Bottles",
-  "size": "6 ct, 500 ml",
-  "price": 14.99,
-  "cat": "Drinks"
- },
- {
-  "name": "Mountain Valley Premium Spring Water Bottle",
-  "size": "500 ML",
-  "price": 2.59,
-  "cat": "Drinks"
- },
- {
-  "name": "Conchita Unsweetened Coconut Water",
-  "size": "16.8 OZ",
-  "price": 2.19,
-  "cat": "Drinks"
- },
- {
-  "name": "C2O Pure Coconut Water",
-  "size": "33.8 OZ",
-  "price": 4.79,
-  "cat": "Drinks"
- },
- {
-  "name": "Pure Life, Purified Water, 8 Fl Oz, Plastic Bottled Water (12 Pack)",
-  "size": "",
-  "price": 3.99,
-  "cat": "Drinks"
- },
- {
-  "name": "Essentia Ionized Alkaline 9.5 pH Bottled Water",
-  "size": "1.5 L",
-  "price": 3.39,
-  "cat": "Drinks",
-  "deal": "Buy 1, Get 1 50% Off"
- },
- {
-  "name": "Pure Life, Purified Water, 16.9 Fl Oz / 500 mL, Plastic Bottled Water (24 Pack)",
-  "size": "",
-  "price": 7.79,
-  "cat": "Drinks"
- },
- {
-  "name": "FIJI, Natural Artesian Bottled Water, 1.5 Liters / 50.7 Fl Ounce (Single Bottle)",
-  "size": "",
-  "price": 3.89,
-  "cat": "Drinks"
- },
- {
-  "name": "Blackberry bubly dropsTM for SodaStream",
-  "size": "1.36 fl.oz",
-  "price": 6.99,
-  "cat": "Drinks"
- },
- {
-  "name": "Coca-Cola Soda Soft Drink, Cans",
-  "size": "12 ct, 12 oz",
-  "price": 10.99,
-  "cat": "Drinks",
-  "deal": "Buy 2, Get 1 Free"
- },
- {
-  "name": "Joyburst Protein Soda Cotton Candy",
-  "size": "12 OZ",
-  "price": 2.99,
-  "cat": "Drinks"
- },
- {
-  "name": "Dr Pepper Diet Bottle",
-  "size": "2L",
-  "price": 3.99,
-  "cat": "Drinks"
- },
- {
-  "name": "Dr Pepper Bottle",
-  "size": "2L",
-  "price": 3.99,
-  "cat": "Drinks"
- },
- {
-  "name": "Fanta Orange Soda Fruit Flavored Soft Drink",
-  "size": "67.6 OZ",
-  "price": 3.99,
-  "cat": "Drinks"
- },
- {
-  "name": "Sprite Bottle, 2 Liters",
-  "size": "",
-  "price": 3.99,
-  "cat": "Drinks"
- },
- {
-  "name": "Coca-Cola Bottle, 2 Liters",
-  "size": "",
-  "price": 3.99,
-  "cat": "Drinks"
- },
- {
-  "name": "Fanta Strawberry Soda Bottle",
-  "size": "20 fl oz",
-  "price": 3.19,
-  "cat": "Drinks"
- },
- {
-  "name": "Pepsi Bottle",
-  "size": "2L",
-  "price": 3.99,
-  "cat": "Drinks"
- },
- {
-  "name": "Coca-Cola Bottle, 1.25 Liters",
-  "size": "",
-  "price": 2.49,
-  "cat": "Drinks",
-  "deal": "On sale $1.99; 2 for $2.00 or $1.99 ea."
- },
- {
-  "name": "Diet Mountain Dew Zero Calorie Can",
-  "size": "12 OZ, 12CT",
-  "price": 10.99,
-  "cat": "Drinks",
-  "deal": "Buy 2, Get 1 Free - Add 2 or more to qualify!"
- },
- {
-  "name": "Sprite Zero Sugar Lemon Lime Diet Soda Pop Soft Drink",
-  "size": "20 oz",
-  "price": 3.19,
-  "cat": "Drinks",
-  "deal": "when you buy any TWO (2) participating Coca-Cola brand 20oz bottles"
- }
+{
+"name": "Fritos Chili Cheese Flavored Corn Chips",
+"size": "9.25 OZ",
+"price": 5.69,
+"cat": "Snacks"
+},
+{
+"name": "Barnana Flamin' Ghost Plantain Chips",
+"size": "4 OZ",
+"price": 4.99,
+"cat": "Snacks"
+},
+{
+"name": "Boulder Canyon 6 Classic Sea Salt Thin & Crispy Chips",
+"size": "6 OZ",
+"price": 4.79,
+"cat": "Snacks"
+},
+{
+"name": "Siete Taco Seasoning White Yellow Corn Tortilla Chips",
+"size": "7.5 OZ",
+"price": 5.99,
+"cat": "Snacks"
+},
+{
+"name": "Barnana Organic Pink Sea Salt Plantain Chips",
+"size": "5 OZ",
+"price": 4.99,
+"cat": "Snacks"
+},
+{
+"name": "Lay's Potato Chips Classic",
+"size": "8 oz",
+"price": 4.59,
+"cat": "Snacks",
+"deal": "Buy 1, Get 1 for $1.00"
+},
+{
+"name": "Doritos Nacho Cheese Flavored Tortilla Chips",
+"size": "9.25 oz",
+"price": 5.79,
+"cat": "Snacks"
+},
+{
+"name": "Lay's Potato Chips Barbecue Flavored",
+"size": "7.75 oz",
+"price": 4.59,
+"cat": "Snacks",
+"deal": "Buy 1, Get 1 for $1.00"
+},
+{
+"name": "Lay's Potato Chips Sour Cream & Onion Flavored",
+"size": "7.75 oz",
+"price": 4.59,
+"cat": "Snacks",
+"deal": "Buy 1, Get 1 for $1.00"
+},
+{
+"name": "Takis Fuego Rolls Hot Chili Pepper & Lime Flavored Spicy Tortilla Chips",
+"size": "9.9 oz",
+"price": 5.79,
+"cat": "Snacks"
+},
+{
+"name": "Doritos Cool Ranch Flavored Tortilla Chips",
+"size": "9.25 oz",
+"price": 5.79,
+"cat": "Snacks"
+},
+{
+"name": "Lay's Wavy Potato Chips Original",
+"size": "7.75 oz",
+"price": 4.59,
+"cat": "Snacks",
+"deal": "Buy 1, Get 1 for $1.00"
+},
+{
+"name": "Ruffles Potato Chips Cheddar & Sour Cream Flavored",
+"size": "2.5 oz",
+"price": 2.79,
+"cat": "Snacks"
+},
+{
+"name": "Frito-Lay Tostitos Salsa Con Queso Medium",
+"size": "",
+"price": 5.49,
+"cat": "Snacks"
+},
+{
+"name": "Tostitos, Medium Dip Chunky Salsa",
+"size": "15.5 Oz",
+"price": 4.29,
+"cat": "Snacks"
+},
+{
+"name": "Tostitos, Chunky Salsa Mild",
+"size": "15.5 Oz",
+"price": 4.29,
+"cat": "Snacks"
+},
+{
+"name": "Herdez Salsa Verde",
+"size": "8.5 OZ",
+"price": 2.29,
+"cat": "Snacks"
+},
+{
+"name": "Moose Munch  Holiday Gable Box Dark Chocolate",
+"size": "4.5 OZ",
+"price": 6.99,
+"cat": "Snacks"
+},
+{
+"name": "Khloud White Cheddar Protein Popcorn",
+"size": "4 OZ",
+"price": 5.99,
+"cat": "Snacks"
+},
+{
+"name": "Gift Pop Rudolph Licensed Assortment Icon Popcorn Tin",
+"size": "21 OZ",
+"price": 10.99,
+"cat": "Snacks"
+},
+{
+"name": "Act II Butter Lovers Popcorn",
+"size": "6 CT, 16.5 OZ",
+"price": 4.99,
+"cat": "Snacks"
+},
+{
+"name": "PopCorners Spicy Queso",
+"size": "12 CT, 5 OZ",
+"price": 4.49,
+"cat": "Snacks"
+},
+{
+"name": "Khloud Sweet and Salty Kettle Corn Protein Popcorn",
+"size": "5 OZ",
+"price": 5.99,
+"cat": "Snacks"
+},
+{
+"name": "Lesser Evil Organic Popcorn Homers Secret Blend",
+"size": "4.6 OZ",
+"price": 4.69,
+"cat": "Snacks"
+},
+{
+"name": "Signature Brands Elf on the Shelf Snow Much Fun Popcorn Tin",
+"size": "21 OZ",
+"price": 10.99,
+"cat": "Snacks"
+},
+{
+"name": "Pop Corners Sea Salt",
+"size": "12 CT, 5 OZ",
+"price": 4.49,
+"cat": "Snacks"
+},
+{
+"name": "PopCorners White Cheddar",
+"size": "12 CT, 5 OZ",
+"price": 4.49,
+"cat": "Snacks"
+},
+{
+"name": "Well Market Olive Oil and Sea Salt Popcorn",
+"size": "5 OZ",
+"price": 3.39,
+"cat": "Snacks",
+"deal": "On sale $2.99"
+},
+{
+"name": "Well Market White Cheddar Popcorn",
+"size": "5 OZ",
+"price": 3.39,
+"cat": "Snacks",
+"deal": "On sale $2.99"
+},
+{
+"name": "Well Market Sea Salt Popcorn",
+"size": "5 OZ",
+"price": 3.19,
+"cat": "Snacks",
+"deal": "On sale $2.99"
+},
+{
+"name": "Lambertz European Cookie Tin",
+"size": "7.05 OZ",
+"price": 6.99,
+"cat": "Snacks"
+},
+{
+"name": "Well Market Hazelnut Milk Choc Covered Mini Butter Biscuits",
+"size": "3.53 OZ",
+"price": 5.99,
+"cat": "Snacks"
+},
+{
+"name": "Biscoff Sandwich Vanilla Duo",
+"size": "7.76 OZ",
+"price": 4.99,
+"cat": "Snacks"
+},
+{
+"name": "Walkers Shortbread Festive Shapes",
+"size": "12.3 OZ",
+"price": 9.99,
+"cat": "Snacks"
+},
+{
+"name": "Tate's Bake Shop Chocolate Toffee Cookies, Limited Edition Holiday Cookies",
+"size": "6.5 OZ",
+"price": 6.99,
+"cat": "Snacks"
+},
+{
+"name": "Lambertz Premium Assorted Cookies, Best Selection Tin",
+"size": "18.34 OZ",
+"price": 16.99,
+"cat": "Snacks"
+},
+{
+"name": "Mallomars Pure Chocolate Cookies",
+"size": "8.2 OZ",
+"price": 5.69,
+"cat": "Snacks"
+},
+{
+"name": "Original Gourmet Holiday Shortbread Cookies with 300-Piece Puzzle Tin",
+"size": "7 OZ",
+"price": 14.99,
+"cat": "Snacks"
+},
+{
+"name": "Well Market Waffle Cones filled with Milk Chocolate",
+"size": "4.23 OZ",
+"price": 5.99,
+"cat": "Snacks"
+},
+{
+"name": "Stauffer's Holiday Shortbread Cookies",
+"size": "12 OZ",
+"price": 3.99,
+"cat": "Snacks"
+},
+{
+"name": "Cuetara Recoco Coconut Cookies",
+"size": "3.05 OZ",
+"price": 3.49,
+"cat": "Snacks"
+},
+{
+"name": "Pepperidge Farm Gingerman Old Fashioned Cookies",
+"size": "5 OZ",
+"price": 5.89,
+"cat": "Snacks"
+},
+{
+"name": "Serafina Butter Cookies Tin",
+"size": "4 OZ",
+"price": 1.99,
+"cat": "Snacks"
+},
+{
+"name": "Snickers Original Chocolate Candy Bars, Fun Size",
+"size": "10.59 OZ",
+"price": 7.29,
+"cat": "Snacks"
+},
+{
+"name": "M&M'S Fun Size Milk Chocolate, Bulk Bag",
+"size": "10.53 OZ",
+"price": 7.29,
+"cat": "Snacks"
+},
+{
+"name": "Kit Kat Milk Chocolate Wafer Snack Size, Candy Bag",
+"size": "10.78 OZ",
+"price": 7.59,
+"cat": "Snacks",
+"deal": "Buy 1, Get 1 50% Off"
+},
+{
+"name": "Dove Promises Milk Chocolate Candy Bag",
+"size": "7.61 OZ",
+"price": 6.79,
+"cat": "Snacks",
+"deal": "Buy 1, Get 1 50% Off"
+},
+{
+"name": "Reese's Snack Size Peanut Butter Cups, Milk Chocolate",
+"size": "10.5 OZ",
+"price": 7.59,
+"cat": "Snacks",
+"deal": "Buy 1, Get 1 50% Off"
+},
+{
+"name": "Hershey's Kisses Candy Cane Flavored, Christmas Candy Bag",
+"size": "9 OZ",
+"price": 8.49,
+"cat": "Snacks",
+"deal": "Buy 1, Get 1 for $1.00"
+},
+{
+"name": "Hershey's Kisses Candy Cane Flavored, Christmas Candy Bulk Bag",
+"size": "31.67 OZ",
+"price": 22.99,
+"cat": "Snacks",
+"deal": "Buy 1, Get 1 50% Off"
+},
+{
+"name": "M&M'S Peanut Butter Mega Chocolate Candies",
+"size": "2.83 OZ",
+"price": 3.19,
+"cat": "Snacks",
+"deal": "Buy 1, Get 1 50% Off"
+},
+{
+"name": "Spangler Candy Canes Peppermint",
+"size": "1 OZ",
+"price": 0.99,
+"cat": "Snacks",
+"deal": "Buy 1, Get 1 50% Off"
+},
+{
+"name": "Skittles Original Christmas Chewy Candy Cane Gift",
+"size": "2.6 OZ",
+"price": 3.99,
+"cat": "Snacks",
+"deal": "Buy 1, Get 1 50% Off"
+},
+{
+"name": "Brach's Peppermint Candy Canes",
+"size": "12 CT, 5.3 OZ",
+"price": 3.99,
+"cat": "Snacks",
+"deal": "Buy 1, Get 1 50% Off"
+},
+{
+"name": "M&M'S Peanut Milk Chocolate Candy, Share Size Bag",
+"size": "3.27 OZ",
+"price": 3.19,
+"cat": "Snacks",
+"deal": "Buy 1, Get 1 50% Off"
+},
+{
+"name": "Hershey's Kisses Milk Chocolate, Christmas Candy Plastic Cane",
+"size": "2.24 OZ",
+"price": 4.49,
+"cat": "Snacks",
+"deal": "Buy 1, Get 1 50% Off"
+},
+{
+"name": "Lindt Lindor Holiday Assorted Peppermint Chocolate Candy Truffles",
+"size": "15.2 OZ",
+"price": 20.99,
+"cat": "Snacks",
+"deal": "Buy 1, Get 1 50% Off"
+},
+{
+"name": "Lindt Holiday Chocolate Teddy Bear Advent Calendar",
+"size": "4.5 OZ",
+"price": 17.49,
+"cat": "Snacks",
+"deal": "Buy 1, Get 1 50% Off"
+},
+{
+"name": "Reese's Milk Chocolate Peanut Butter Snack Size Trees, Christmas Candy Bag",
+"size": "9.6 OZ",
+"price": 8.49,
+"cat": "Snacks",
+"deal": "Buy 1, Get 1 for $1.00"
+},
+{
+"name": "Russell Stover Sugar Free Toffee Squares",
+"size": "2 OZ",
+"price": 3.99,
+"cat": "Snacks"
+},
+{
+"name": "Ghirardelli Chocolate Snowmen Assortment",
+"size": "10.2 OZ",
+"price": 20.99,
+"cat": "Snacks",
+"deal": "Buy 1, Get 1 50% Off"
+},
+{
+"name": "Reese's Milk Chocolate Peanut Butter Assorted Shapes, Christmas Candy Bag",
+"size": "9.6 OZ",
+"price": 8.49,
+"cat": "Snacks",
+"deal": "Buy 1, Get 1 for $1.00"
+},
+{
+"name": "Lindt Holiday Mug with Chocolate Truffles",
+"size": "1.3 OZ",
+"price": 13.99,
+"cat": "Snacks"
+},
+{
+"name": "Russell Stover Sugar Free, Pecan Delight",
+"size": "2.4 OZ",
+"price": 3.99,
+"cat": "Snacks"
+},
+{
+"name": "Ferrero Rocher",
+"size": "5 CT, 2.2 OZ",
+"price": 5.99,
+"cat": "Snacks",
+"deal": "Buy 1, Get 1 50% Off"
+},
+{
+"name": "Dove Promises Milk Chocolate Christmas Candy Gifts",
+"size": "8.87 OZ",
+"price": 7.99,
+"cat": "Snacks",
+"deal": "Buy 1, Get 1 for $1.00"
+},
+{
+"name": "Lindt Lindor Holiday Milk Chocolate Candy Truffles Favor Gift",
+"size": "2.1 OZ",
+"price": 5.49,
+"cat": "Snacks",
+"deal": "Buy 1, Get 1 50% Off"
+},
+{
+"name": "Russell Stover French Mints Box",
+"size": "12 CT, 4 OZ",
+"price": 7.99,
+"cat": "Snacks",
+"deal": "Buy 1, Get 1 50% Off"
+},
+{
+"name": "Lindt Lindor Assorted Chocolate Candy Truffles with Smooth, Melting Truffle Center",
+"size": "8.5 OZ",
+"price": 14.99,
+"cat": "Snacks",
+"deal": "Buy 1, Get 1 50% Off"
+},
+{
+"name": "Total Home Party Cups",
+"size": "9 oz, 50 ct",
+"price": 6.39,
+"cat": "Party & Home",
+"deal": "$5 ExtraBucks Rewards for spending $15 on Total Home Cups, Plates or Cutlery"
+},
+{
+"name": "Total Home Party Cups",
+"size": "18 oz, 100 ct",
+"price": 16.69,
+"cat": "Party & Home",
+"deal": "$5 ExtraBucks Rewards for spending $15 on Total Home Cups, Plates or Cutlery"
+},
+{
+"name": "Total Home Party Cups",
+"size": "16 oz, 20 ct",
+"price": 6.29,
+"cat": "Party & Home",
+"deal": "$5 ExtraBucks Rewards for spending $15 on Total Home Cups, Plates or Cutlery"
+},
+{
+"name": "Ball Recyclable Aluminum Party Cups",
+"size": "20 oz, 10 ct",
+"price": 6.49,
+"cat": "Party & Home"
+},
+{
+"name": "Plastifar Disposable Plastic Cups",
+"size": "0.75 oz, 250 ct",
+"price": 2.99,
+"cat": "Party & Home"
+},
+{
+"name": "Ball Recyclable Aluminum Cups",
+"size": "16 oz, 24 ct",
+"price": 13.49,
+"cat": "Party & Home"
+},
+{
+"name": "Total Home Decorated Paper Plates",
+"size": "8.75 in, 48 ct",
+"price": 8.49,
+"cat": "Party & Home",
+"deal": "$5 ExtraBucks Rewards for spending $15 on Total Home Cups, Plates or Cutlery"
+},
+{
+"name": "Total Home Decorated Paper Plates",
+"size": "40 ct",
+"price": 4.49,
+"cat": "Party & Home",
+"deal": "$5 ExtraBucks Rewards for spending $15 on Total Home Cups, Plates or Cutlery"
+},
+{
+"name": "Total Home Microwavable Plastic Dinner Plates",
+"size": "14 ct",
+"price": 6.89,
+"cat": "Party & Home",
+"deal": "$5 ExtraBucks Rewards for spending $15 on Total Home Cups, Plates or Cutlery"
+},
+{
+"name": "Glad Paper Plates, Pink Flower",
+"size": "50 ct",
+"price": 6.99,
+"cat": "Party & Home"
+},
+{
+"name": "Glad Paper Plates, Blue Flower",
+"size": "50 ct",
+"price": 8.99,
+"cat": "Party & Home"
+},
+{
+"name": "Time To Party Paper Dinner Plates, Floral",
+"size": "8 ct",
+"price": 4.99,
+"cat": "Party & Home"
+},
+{
+"name": "Time To Party Paper Dinner Plates, Scalloped",
+"size": "8 ct",
+"price": 4.99,
+"cat": "Party & Home"
+},
+{
+"name": "Time To Party Paper Dinner Plates, Black Stripe",
+"size": "8 ct",
+"price": 4.99,
+"cat": "Party & Home"
+},
+{
+"name": "Glad Soak-Proof Paper Plates, Victorian Print",
+"size": "50 ct",
+"price": 8.99,
+"cat": "Party & Home"
+},
+{
+"name": "Glad Premium Cutlery Assortment",
+"size": "240 ct",
+"price": 14.79,
+"cat": "Party & Home"
+},
+{
+"name": "Joseph Joseph Duo Straight Peeler",
+"size": "",
+"price": 10.49,
+"cat": "Party & Home"
+},
+{
+"name": "Bounty Full Sheet Paper Towels",
+"size": "6 Double Rolls",
+"price": 21.99,
+"cat": "Party & Home",
+"deal": "On sale $15.99"
+},
+{
+"name": "Bounty Select-A-Size Paper Towels",
+"size": "4 Double Rolls",
+"price": 15.49,
+"cat": "Party & Home",
+"deal": "On sale $10.99"
+},
+{
+"name": "Total Home Size Select Paper Towels",
+"size": "6 Big Rolls",
+"price": 10.79,
+"cat": "Party & Home",
+"deal": "On sale $8.99"
+},
+{
+"name": "Scott Choose-A-Sheet Paper Towels",
+"size": "8 Double Rolls",
+"price": 16.69,
+"cat": "Party & Home"
+},
+{
+"name": "Bounty Select-A-Size Paper Towels",
+"size": "6 Triple Rolls",
+"price": 26.49,
+"cat": "Party & Home"
+},
+{
+"name": "Bounty Select-A-Size Paper Towels",
+"size": "8 Double Rolls",
+"price": 24.49,
+"cat": "Party & Home"
+},
+{
+"name": "Brawny 3-Ply Tear-A-Square Paper Towels",
+"size": "6 Double Rolls",
+"price": 19.99,
+"cat": "Party & Home",
+"deal": "On sale $12.99"
+},
+{
+"name": "Viva Signature Cloth Paper Towels",
+"size": "2 Quad Rolls",
+"price": 13.39,
+"cat": "Party & Home",
+"deal": "On sale $8.99"
+},
+{
+"name": "Bounty Essentials Select-A-Size Paper Towels",
+"size": "6 Double Rolls",
+"price": 13.49,
+"cat": "Party & Home",
+"deal": "On sale $10.99"
+},
+{
+"name": "Viva Signature Cloth Paper Towels",
+"size": "6 Double Rolls",
+"price": 19.69,
+"cat": "Party & Home"
+},
+{
+"name": "Total Home Premium Paper Towels",
+"size": "2 Mega Rolls",
+"price": 5.49,
+"cat": "Party & Home"
+},
+{
+"name": "Total Home Size Selection Paper Towels",
+"size": "6 Mega Rolls",
+"price": 13.79,
+"cat": "Party & Home"
+},
+{
+"name": "Bounty Prints Select-A-Size Paper Towels",
+"size": "2 Triple Rolls",
+"price": 11.79,
+"cat": "Party & Home"
+},
+{
+"name": "Scott 1000 Toilet Paper",
+"size": "12 Rolls",
+"price": 14.49,
+"cat": "Party & Home"
+},
+{
+"name": "Charmin Ultra Soft Toilet Paper",
+"size": "12 Mega Rolls",
+"price": 21.99,
+"cat": "Party & Home",
+"deal": "On sale $15.99"
+},
+{
+"name": "Charmin Ultra Soft Toilet Paper",
+"size": "6 Mega Rolls",
+"price": 12.49,
+"cat": "Party & Home",
+"deal": "On sale $9.99"
+},
+{
+"name": "Charmin Ultra Strong Toilet Paper",
+"size": "12 Mega Rolls",
+"price": 21.99,
+"cat": "Party & Home",
+"deal": "On sale $15.99"
+},
+{
+"name": "\u2013",
+"size": "",
+"price": 7.49,
+"cat": "Party & Home"
+},
+{
+"name": "Cottonelle Ultra Clean Toilet Paper",
+"size": "9 Mega Rolls",
+"price": 8.99,
+"cat": "Party & Home"
+},
+{
+"name": "Charmin Essentials Soft Toilet Paper",
+"size": "6 Mega Rolls",
+"price": 7.79,
+"cat": "Party & Home"
+},
+{
+"name": "Scott Comfort Plus Toilet Paper",
+"size": "18 Triple Rolls",
+"price": 12.99,
+"cat": "Party & Home"
+},
+{
+"name": "Total Home Just The Basics Toilet Paper",
+"size": "12 ct",
+"price": 12.49,
+"cat": "Party & Home",
+"deal": "On sale $7.99"
+},
+{
+"name": "Cottonelle Ultra Soft Toilet Paper",
+"size": "9 Mega Rolls",
+"price": 8.99,
+"cat": "Party & Home"
+},
+{
+"name": "Total Home Soft & Strong Toilet Paper",
+"size": "9 Mega Rolls",
+"price": 10.89,
+"cat": "Party & Home",
+"deal": "On sale $8.99"
+},
+{
+"name": "Cottonelle Fresh Care Flushable Wet Wipes, 2 pk (84 total wipes)",
+"size": "",
+"price": 5.79,
+"cat": "Party & Home",
+"deal": "On sale $4.99"
+},
+{
+"name": "Cottonelle GentlePlus Flushable Wet Wipes, 2 pk (84 total wipes)",
+"size": "",
+"price": 5.79,
+"cat": "Party & Home",
+"deal": "On sale $4.99"
+},
+{
+"name": "Universal Candle Co. 4-Wick Striped Candle, Christmas Tree Farm",
+"size": "14 oz",
+"price": 9.99,
+"cat": "Party & Home"
+},
+{
+"name": "Universal Candle Co. Christmas Tree Candle, Christmas Tree Farm",
+"size": "9.5 oz",
+"price": 9.99,
+"cat": "Party & Home"
+},
+{
+"name": "Universal Candle Co. Reindeer Candle, Vanilla Sugar Cupcake",
+"size": "9.5 oz",
+"price": 9.99,
+"cat": "Party & Home"
+},
+{
+"name": "Tuscany Candle 2-Wick Candle, Very Merry Mistletoe",
+"size": "18 oz",
+"price": 14.99,
+"cat": "Party & Home"
+},
+{
+"name": "Joyward Etched Glass Deer Tealight Holder, Brown",
+"size": "4.9 in",
+"price": 4.99,
+"cat": "Party & Home"
+},
+{
+"name": "Tuscany Candle 3-Wick Candle, Velvet Wreath",
+"size": "15 oz",
+"price": 14.99,
+"cat": "Party & Home"
+},
+{
+"name": "Decorware Vintage Tin 2-Wick Candle, Woodland Moss",
+"size": "12.4 oz",
+"price": 7.99,
+"cat": "Party & Home"
+},
+{
+"name": "Tuscany Candle 3-Wick Candle, Winter Forest",
+"size": "18 oz",
+"price": 15.99,
+"cat": "Party & Home"
+},
+{
+"name": "A&A Light Green Glass Candle, Mountain Pine",
+"size": "13 oz",
+"price": 11.99,
+"cat": "Party & Home"
+},
+{
+"name": "Decorware Wreath Candle, Cedarwood & Currant",
+"size": "8.2 oz",
+"price": 7.99,
+"cat": "Party & Home"
+},
+{
+"name": "Joyward Pinecone Candle Holder Set",
+"size": "3.5 in",
+"price": 14.99,
+"cat": "Party & Home"
+},
+{
+"name": "Joyward LED Water Candle",
+"size": "8 in",
+"price": 24.99,
+"cat": "Party & Home"
+},
+{
+"name": "Decorware Tis the Season Wood Wick Candle, Winter Snow",
+"size": "12 oz",
+"price": 9.99,
+"cat": "Party & Home"
+},
+{
+"name": "Gillette Venus ComfortGlide Dispoable Razors",
+"size": "2 CT",
+"price": 8.69,
+"cat": "Personal Care"
+},
+{
+"name": "Skintimate Sensitive Skin 4-Blade Disposable Razors",
+"size": "4 CT",
+"price": 8.59,
+"cat": "Personal Care"
+},
+{
+"name": "Gillette Venus Pubic Hair & Skin Disposable Razors",
+"size": "4 CT",
+"price": 8.99,
+"cat": "Personal Care"
+},
+{
+"name": "Gillette Venus Sensitive 3-Blade Disposable Razors",
+"size": "4 CT",
+"price": 7.79,
+"cat": "Personal Care"
+},
+{
+"name": "Skintimate Raspberry Rain 4-Blade Disposable Razors",
+"size": "4 CT",
+"price": 8.59,
+"cat": "Personal Care"
+},
+{
+"name": "Gillette Sensor3 3-Blade Disposable Razors",
+"size": "4 CT",
+"price": 7.99,
+"cat": "Personal Care"
+},
+{
+"name": "Schick Xtreme Sensitive 3-Blade Disposable Razors",
+"size": "4 CT",
+"price": 8.99,
+"cat": "Personal Care"
+},
+{
+"name": "CVS Beauty Women's 2 Blade Gentle Touch Disposable Razors",
+"size": "10 CT",
+"price": 3.19,
+"cat": "Personal Care",
+"deal": "Buy 1, Get 1 50% Off"
+},
+{
+"name": "Gillette Mach3 Sensitive 3-Blade Disposable Razors",
+"size": "3 CT",
+"price": 19.99,
+"cat": "Personal Care"
+},
+{
+"name": "Schick Xtreme Sensitive 3-Blade Disposable Razors",
+"size": "8 CT",
+"price": 12.99,
+"cat": "Personal Care"
+},
+{
+"name": "Schick Hydro Silk Sensitive 5-Blade Disposable Razors",
+"size": "2 PK",
+"price": 9.29,
+"cat": "Personal Care"
+},
+{
+"name": "Schick Hydro Silk Touch-Up Multipurpose Razors",
+"size": "3 CT",
+"price": 6.99,
+"cat": "Personal Care"
+},
+{
+"name": "Schick Xtreme Sensitive 2-Blade Disposable Razors",
+"size": "12 CT",
+"price": 8.99,
+"cat": "Personal Care"
+},
+{
+"name": "Icelandic Glacial Water",
+"size": "750 ML",
+"price": 3.89,
+"cat": "Drinks"
+},
+{
+"name": "Gold Emblem Refillable Alkaline Water",
+"size": "25 OZ",
+"price": 2.99,
+"cat": "Drinks"
+},
+{
+"name": "Zephyrhills Brand 100% Natural Spring Water",
+"size": "6 ct, 16.9 oz",
+"price": 3.49,
+"cat": "Drinks"
+},
+{
+"name": "Icelandic Glacial Water",
+"size": "6 CT, 330 ML",
+"price": 6.39,
+"cat": "Drinks"
+},
+{
+"name": "Icelandic Glacial Water",
+"size": "6 CT,  1L",
+"price": 16.79,
+"cat": "Drinks"
+},
+{
+"name": "Smartwater Vapor Distilled Premium Water Bottles",
+"size": "6 ct, 500 ml",
+"price": 14.99,
+"cat": "Drinks"
+},
+{
+"name": "Mountain Valley Premium Spring Water Bottle",
+"size": "500 ML",
+"price": 2.59,
+"cat": "Drinks"
+},
+{
+"name": "Conchita Unsweetened Coconut Water",
+"size": "16.8 OZ",
+"price": 2.19,
+"cat": "Drinks"
+},
+{
+"name": "C2O Pure Coconut Water",
+"size": "33.8 OZ",
+"price": 4.79,
+"cat": "Drinks"
+},
+{
+"name": "Pure Life, Purified Water, 8 Fl Oz, Plastic Bottled Water (12 Pack)",
+"size": "",
+"price": 3.99,
+"cat": "Drinks"
+},
+{
+"name": "Essentia Ionized Alkaline 9.5 pH Bottled Water",
+"size": "1.5 L",
+"price": 3.39,
+"cat": "Drinks",
+"deal": "Buy 1, Get 1 50% Off"
+},
+{
+"name": "Pure Life, Purified Water, 16.9 Fl Oz / 500 mL, Plastic Bottled Water (24 Pack)",
+"size": "",
+"price": 7.79,
+"cat": "Drinks"
+},
+{
+"name": "FIJI, Natural Artesian Bottled Water, 1.5 Liters / 50.7 Fl Ounce (Single Bottle)",
+"size": "",
+"price": 3.89,
+"cat": "Drinks"
+},
+{
+"name": "Blackberry bubly dropsTM for SodaStream",
+"size": "1.36 fl.oz",
+"price": 6.99,
+"cat": "Drinks"
+},
+{
+"name": "Coca-Cola Soda Soft Drink, Cans",
+"size": "12 ct, 12 oz",
+"price": 10.99,
+"cat": "Drinks",
+"deal": "Buy 2, Get 1 Free"
+},
+{
+"name": "Joyburst Protein Soda Cotton Candy",
+"size": "12 OZ",
+"price": 2.99,
+"cat": "Drinks"
+},
+{
+"name": "Dr Pepper Diet Bottle",
+"size": "2L",
+"price": 3.99,
+"cat": "Drinks"
+},
+{
+"name": "Dr Pepper Bottle",
+"size": "2L",
+"price": 3.99,
+"cat": "Drinks"
+},
+{
+"name": "Fanta Orange Soda Fruit Flavored Soft Drink",
+"size": "67.6 OZ",
+"price": 3.99,
+"cat": "Drinks"
+},
+{
+"name": "Sprite Bottle, 2 Liters",
+"size": "",
+"price": 3.99,
+"cat": "Drinks"
+},
+{
+"name": "Coca-Cola Bottle, 2 Liters",
+"size": "",
+"price": 3.99,
+"cat": "Drinks"
+},
+{
+"name": "Fanta Strawberry Soda Bottle",
+"size": "20 fl oz",
+"price": 3.19,
+"cat": "Drinks"
+},
+{
+"name": "Pepsi Bottle",
+"size": "2L",
+"price": 3.99,
+"cat": "Drinks"
+},
+{
+"name": "Coca-Cola Bottle, 1.25 Liters",
+"size": "",
+"price": 2.49,
+"cat": "Drinks",
+"deal": "On sale $1.99; 2 for $2.00 or $1.99 ea."
+},
+{
+"name": "Diet Mountain Dew Zero Calorie Can",
+"size": "12 OZ, 12CT",
+"price": 10.99,
+"cat": "Drinks",
+"deal": "Buy 2, Get 1 Free - Add 2 or more to qualify!"
+},
+{
+"name": "Sprite Zero Sugar Lemon Lime Diet Soda Pop Soft Drink",
+"size": "20 oz",
+"price": 3.19,
+"cat": "Drinks",
+"deal": "when you buy any TWO (2) participating Coca-Cola brand 20oz bottles"
+},
+{
+"name": "Tostitos Original Restaurant Style Tortilla Chips",
+"size": "13 oz",
+"price": 5.79,
+"cat": "Snacks"
+},
+{
+"name": "Tostitos Chunky Salsa, Medium",
+"size": "15.5 oz",
+"price": 4.29,
+"cat": "Snacks"
+},
+{
+"name": "Tostitos Salsa Con Queso",
+"size": "15 oz",
+"price": 5.49,
+"cat": "Snacks"
+},
+{
+"name": "Sour Patch Kids Share Size",
+"size": "12 oz",
+"price": 5.99,
+"cat": "Snacks"
+},
+{
+"name": "Sour Patch Kids Family Size",
+"size": "28.8 oz",
+"price": 8.99,
+"cat": "Snacks"
+},
+{
+"name": "Skittles Original Sharing Size",
+"size": "15.6 oz",
+"price": 6.49,
+"cat": "Snacks"
+},
+{
+"name": "M&M's Milk Chocolate Sharing Size",
+"size": "10 oz",
+"price": 7.59,
+"cat": "Snacks"
+},
+{
+"name": "M&M's Milk Chocolate Party Size",
+"size": "38 oz",
+"price": 17.99,
+"cat": "Snacks"
+},
+{
+"name": "Oreo Chocolate Sandwich Cookies, Family Size",
+"size": "18.12 oz",
+"price": 6.99,
+"cat": "Snacks"
+},
+{
+"name": "Oreo Double Stuf, Family Size",
+"size": "18.71 oz",
+"price": 6.99,
+"cat": "Snacks"
+},
+{
+"name": "Celsius Sparkling Energy Drink",
+"size": "12 oz can",
+"price": 2.99,
+"cat": "Drinks"
+},
+{
+"name": "Celsius Sparkling Energy Drink 4-Pack",
+"size": "4 x 12 oz",
+"price": 9.49,
+"cat": "Drinks"
+},
+{
+"name": "Red Bull Energy Drink",
+"size": "8.4 oz",
+"price": 3.29,
+"cat": "Drinks"
+},
+{
+"name": "Red Bull Energy Drink",
+"size": "12 oz",
+"price": 3.79,
+"cat": "Drinks"
+},
+{
+"name": "Red Bull Energy Drink 12-Pack",
+"size": "12 x 8.4 oz",
+"price": 24.79,
+"cat": "Drinks"
+},
+{
+"name": "Gatorade Thirst Quencher",
+"size": "20 oz",
+"price": 2.49,
+"cat": "Drinks"
+},
+{
+"name": "Gatorade Thirst Quencher",
+"size": "28 oz",
+"price": 3.19,
+"cat": "Drinks"
+},
+{
+"name": "Liquid I.V. Hydration Multiplier",
+"size": "6 sticks",
+"price": 12.99,
+"cat": "Drinks"
+},
+{
+"name": "Liquid I.V. Hydration Multiplier",
+"size": "10 sticks",
+"price": 20.99,
+"cat": "Drinks"
+},
+{
+"name": "Pedialyte Electrolyte Solution",
+"size": "1 L",
+"price": 7.49,
+"cat": "Drinks",
+"deal": "Buy 1, Get 1 40% off"
+},
+{
+"name": "Coca-Cola",
+"size": "2 L",
+"price": 3.99,
+"cat": "Drinks"
+},
+{
+"name": "Diet Coke",
+"size": "2 L",
+"price": 3.99,
+"cat": "Drinks"
+},
+{
+"name": "Sprite",
+"size": "2 L",
+"price": 3.99,
+"cat": "Drinks"
+},
+{
+"name": "Canada Dry Ginger Ale",
+"size": "2 L",
+"price": 3.99,
+"cat": "Drinks"
+},
+{
+"name": "Sprite 12-Pack Cans",
+"size": "12 x 12 oz",
+"price": 10.99,
+"cat": "Drinks",
+"deal": "Buy 2, Get 1 free"
+},
+{
+"name": "Canada Dry Ginger Ale 12-Pack Cans",
+"size": "12 x 12 oz",
+"price": 10.99,
+"cat": "Drinks",
+"deal": "Buy 2, Get 1 free"
+},
+{
+"name": "Ocean Spray Cranberry Juice Cocktail",
+"size": "64 oz",
+"price": 4.99,
+"cat": "Drinks"
+},
+{
+"name": "Fever-Tree Premium Tonic Water 4-Pack",
+"size": "4 x 6.8 oz",
+"price": 5.99,
+"cat": "Drinks"
+},
+{
+"name": "Total Home Party Cups, 18 oz",
+"size": "100 ct",
+"price": 16.69,
+"cat": "Party & Home"
+},
+{
+"name": "Total Home Party Cups, 9 oz",
+"size": "50 ct",
+"price": 6.39,
+"cat": "Party & Home"
+},
+{
+"name": "Total Home Paper Plates",
+"size": "40 ct",
+"price": 4.49,
+"cat": "Party & Home"
+},
+{
+"name": "Glad Paper Plates",
+"size": "50 ct",
+"price": 6.99,
+"cat": "Party & Home"
+},
+{
+"name": "Total Home Napkins",
+"size": "250 ct",
+"price": 4.99,
+"cat": "Party & Home"
+},
+{
+"name": "Bounty Napkins",
+"size": "200 ct",
+"price": 5.49,
+"cat": "Party & Home"
+},
+{
+"name": "Ball Aluminum Cups",
+"size": "10 ct",
+"price": 6.49,
+"cat": "Party & Home"
+}
 ]
